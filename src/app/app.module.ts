@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { EstebanPadillaComponent } from './estebanPadilla/estebanPadilla.component';
 import { AboutMeComponent } from './aboutMe/aboutMe.component';
 import { WhatCanIDoComponent } from './whatCanIDo/whatCanIDo.component'
+import { RememberToClickComponent } from './rememberToClick/rememberToClick.component';
 import { HobbiesComponent } from './hobbies/hobbies.component'
 import { SkillsToolsDevelopmentComponent } from './skillsToolsDevelopment/skillsToolsDevelopment.component';
 import { LenguajesComponent } from './lenguajes/lenguajes.component';
@@ -21,6 +22,7 @@ import { SiteDataService } from './siteData.service';
     EstebanPadillaComponent,
     AboutMeComponent,
     WhatCanIDoComponent,
+    RememberToClickComponent,
     HobbiesComponent,
     SkillsToolsDevelopmentComponent,
     LenguajesComponent,

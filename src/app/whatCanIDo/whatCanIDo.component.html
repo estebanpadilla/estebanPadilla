@@ -3,10 +3,17 @@
 	<br>
 	<div class="row textHorizontalSpace">
 		<div class="col-sm-12">
-			<h2 class="text-left">{{ data.title }}</h2>
-			<div *ngFor="let description of data.descriptions">
-				<p class="text-left">{{ description }}</p>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerOnDiv">
+				<img [src]="data.image">
 			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<h2 class="text-left">{{ data.title }}</h2>
+				<div *ngFor="let description of data.descriptions">
+					<p class="text-left">{{ description }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<h3>{{ data.listTitle }}</h3>
 			<ul *ngFor="let item of data.list">
 				<li>{{ item }}</li>

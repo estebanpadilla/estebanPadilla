@@ -58,6 +58,7 @@ export class SiteDataService {
 		this.aboutMeData.list = [];
 
 		this.whatCanIDoData.title = 'Do you need a reliable hand with your development project?';
+		this.whatCanIDoData.image = '../assets/images/developerDesk.png';
 		this.whatCanIDoData.descriptions = [
 		`I can pick up the overflow to help deliver your project on time. 
 		I pride myself in communication and initiative to ensure my involvement 
@@ -390,7 +391,8 @@ export class SiteDataService {
 				descriptions:[`I can carry out many different responsibilities, 
 							sometimes with very little advanced notice, 
 							this could make someone feel under presure and stressfull, 
-							I look at it this way, it is a new challenge.`],
+							I look at it this way, it is a new oportunity 
+							to prove myself.`],
 				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
@@ -410,48 +412,55 @@ export class SiteDataService {
 		this.tools = [
 			{
 				title:'Xcode', 
-				descriptions:[],
+				descriptions:[`I use xcode for all my iOS development I 
+							know that are other tools out there but at this 
+							moment I not interested.`],
 				image:'../assets/images/appleInc.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Paintcode', 
-				descriptions:[],
+				descriptions:[`On my last project I used paintCode to 
+							create all the graphics of my iOS app Biin. 
+							There a whole bunch of reason why to do this 
+							way the most important for me, control.`],
 				image:'../assets/images/paintCode.png',
 				listTitle:'',
 				list:[]
 			},
 			{	title:'Illustrator', 
-				descriptions:[],
+				descriptions:[`I use illustrator for many different purposes like any graphic designer.`],
 				image:'../assets/images/illustrator.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Photoshop', 
-				descriptions:[],
+				descriptions:[`I use photoshop for many different purposes like any graphic designer.`],
 				image:'../assets/images/photoshop.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Sketchapp', 
-				descriptions:[],
+				descriptions:[`I use SketchApp mainly for ui design.`],
 				image:'../assets/images/sketchapp.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Git', 
-				descriptions:[],
+				descriptions:[`It is very a keep safe all my important project, like this site.`],
 				image:'../assets/images/github.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Jira', 
-				descriptions:[],
+				descriptions:[`Manage a team can be difficult if you do 
+							not use the right tools, I think Jira has all 
+							the necessary elements to help a team acomplish goals.`],
 				image:'../assets/images/jira.png',
 				listTitle:'',
 				list:[]
@@ -488,14 +497,23 @@ export class SiteDataService {
 				speakingLevel:'80',
 				readingLevel:'90',
 				image:'../assets/images/english.png',
-				description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+				description:`I lived in the US for almost a decade  and I 
+							got to learn the lenguaje and the culture. 
+							I really tresure in my heart the time 
+							I spend there.`
 			}, 
 			{
 				name:'Spanish',
 				speakingLevel:'100',
 				readingLevel:'100',
 				image:'../assets/images/spanish.png',
-				description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+				description:`I am a natively spanish speaking person, 
+							I have being speaking it for a long, long time, 
+							my father and mother spoke it, their parents 
+							spoke it and I am sure my grand grand parents 
+							did too, also is the official lenguaje in 
+							Costa Rica, that should be enough to 
+							explain why I speak spanish.`
 			}
 		];
 
@@ -538,16 +556,43 @@ export class SiteDataService {
 				roll:'Software engineer', 
 				period:'Nov 2013 - April 2014',
 				image:'../assets/images/developer.png',
-				rollDescription:'Roll description',
-				rollResponsabilities:['Roll responsability 1', 'Roll responsability 2']
+				rollDescription:`Working for HP is totally a differente history. 
+								I decided to apply for that job hoping to 
+								continue and improve my developement career. 
+								They had a new software development branch that was 
+								working directly with the HP Labs team in Palo Alto. 
+								The projects they were doing were really exiting and 
+								cool and that really caught my atention. I am not allow to 
+								talk about any of the projects I worked there due to confidentiality.`,
+				rollResponsabilities:['Worked together with the development team to deliver highend products for big clients.',
+									 'Keep up with the development pace and constantly deliver excellent results.',
+									 'Maintain high coding standards as specified by the company.']
 			},
 			{ 	
 				company:'Biin (startup)', 
-				roll:'iOS Developer', 
+				roll:'iOS Developer, Designer, etc..', 
 				period:'May 2014 - June 2016',
 				image:'../assets/images/appleInc.png',
-				rollDescription:'Roll description',
-				rollResponsabilities:['Roll responsability 1', 'Roll responsability 2']
+				rollDescription:`During my work at HP I got into the entrepreneurial 
+								movement and I decided to give a try to myself. 
+								We saw that many small commerces did not have access 
+								to marketing their products and services on 
+								mobiles devices and we thought that it would a 
+								great idea to bring a platform for them, 
+								where they can easily manage their content, 
+								received fast feedback and reward their vip 
+								clients using the latest microlocalization technologies.`,
+				rollResponsabilities:['Design and develop the iOS application.', 
+									'Design the web platform to manage all app resources.',
+									'Follow the best coding practices and standards.',
+									'Manage the development team.',
+									'Help the development team to maintain the happiness level and well being.',
+									'Manage startup resources to maximise the proyect development.',
+									'Communicate product progress to investor and early adopters.',
+									'Design product features and overall vision.',
+									'Communicate with clients to validate the product vision.',
+									'Find people with talent and willing to work on a startup.'
+									]
 			}
 		];
 

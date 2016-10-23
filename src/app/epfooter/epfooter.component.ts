@@ -9,6 +9,8 @@ export class EpFooterComponent implements OnInit {
 	
 	angularText:string;
 	angularImg:string;
+	firebaseText:string;
+	firebaseImg:string;
 	githubText:string;
 	githubImg:string;
 	rights:string;
@@ -18,7 +20,9 @@ export class EpFooterComponent implements OnInit {
 	ngOnInit() {
 		this.angularText = 'Proudly made with Angular 2';
 		this.angularImg = '../assets/images/angular.png';
-		this.githubText = 'Hosted on Github Pages';
+		this.firebaseText = 'Hosted on Google Firebase';
+		this.firebaseImg = '../assets/images/firebaseLogo.png';
+		this.githubText = 'Repository on Github';
 		this.githubImg = '../assets/images/githubLogo.png';
 	}
 }

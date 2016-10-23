@@ -1,12 +1,12 @@
 h2 {
-	color: #404040;
+	color: white;
 	font-size: 30px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 
 h3 {
-	color: #404040;
+	color: white;
 	font-size: 20px;
 	font-weight: 600;
     font-family: 'Lato', sans-serif;
@@ -39,7 +39,7 @@ button {
 }
 
 .bgColor {
-	background-color: #4DB748;
+	background-color: #465EAA;
 }
 
 .textHorizontalSpace {

@@ -7,8 +7,8 @@ h2 {
 
 p {
 	color: white;
-	font-size: 18px;
-	font-weight: 100;
+	font-size: 20px;
+	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	margin-top: -5px;
 }
@@ -23,11 +23,11 @@ button {
 .p_link:hover {
 	color:white;
 	cursor: pointer;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .bgColor {
-	background-color: #465EAA;
+	background-color: #2AB573;
 }
 
 .textHorizontalSpace {
