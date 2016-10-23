@@ -1,0 +1,53 @@
+<template #content let-c="close" let-d="dismiss">
+	<div class="hobbieModal centerOnDiv topSpace"><img [src]="selectedExperience.image"></div>
+	<h1 class="centerOnDiv">{{ selectedExperience.company }}</h1>
+	<h2 class="h2_Modal centerOnDiv">{{ selectedExperience.roll }}</h2>
+	<p class="periodTextModal centerOnDiv textHorizontalSpace">{{ selectedExperience.period }}</p>
+	<p class="p_modal textHorizontalSpace">{{ selectedExperience.rollDescription }}</p>
+	<div *ngIf="selectedExperience.rollResponsabilities.length > 0">
+		<h3 class="textHorizontalSpace">Responsabilities</h3>
+		<ul *ngFor="let responsability of selectedExperience.rollResponsabilities">
+			<li class="textHorizontalSpace">{{ responsability }}</li>
+		</ul>
+	</div>
+  	<br>
+  	<br>
+  	<div class="modal-footer">
+    	<button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  	</div>
+</template>
+
+<div class="container bgColor">
+	<br>
+	<br>
+	<div class="row textHorizontalSpace">
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			<h2 class="text-left">{{ experienceEducationData.experienceTitle }}</h2>
+			<div class="row text-left">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div *ngFor="let experience of experienceEducationData.experienceList">
+						<br>
+						<p class="companyText">{{ experience.company }}</p>
+						<p class="periodText">{{ experience.period }}</p>
+						<p class="rollText" (click)="showData(content, experience)">{{ experience.roll }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			<h2 class="text-left">{{ experienceEducationData.educationTitle }}</h2>
+			<div class="row text-left">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div *ngFor="let education of experienceEducationData.educationList">
+						<br>
+						<p class="companyText">{{ education.institution }}</p>
+						<p class="achievement">{{ education.achievement }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+</div>

@@ -1,0 +1,23 @@
+h2 {
+	color: #404040;
+	font-size: 30px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+	color: #404040;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+}
+
+.bgColor {
+	background-color: white;
+}
+
+.textHorizontalSpace {
+	margin-left: 30px;
+	margin-right: 30px;
+}

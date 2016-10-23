@@ -1,0 +1,71 @@
+h2 {
+	color: #404040;
+	font-size: 30px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	color: #404040;
+	font-size: 20px;
+	font-weight: 600;
+    font-family: 'Lato', sans-serif;
+	margin-top: 5px;    
+}
+
+.h2ModalColor {
+	color: #404040;
+	margin-top: 5px;
+}
+
+.h3ModalColor {
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: -5px;
+}
+
+p {
+	color: #404040;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+button {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.bgColor {
+	background-color: #4DB748;
+}
+
+.textHorizontalSpace {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.hobbie img {
+	cursor: pointer;	
+	border: 5px solid #404040;
+  	max-height:120px;
+  	width:auto;
+  	border-radius: 60px;
+}
+
+.hobbieModal img {
+	border: 6px solid #404040;
+  	max-height:128px;
+  	width:auto;
+  	border-radius: 64px;
+}
+
+.centerOnDiv{
+	text-align: center;
+}
+
+.topSpace{
+	margin-top: 50px;
+}

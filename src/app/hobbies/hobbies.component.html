@@ -1,0 +1,37 @@
+<template #content let-c="close" let-d="dismiss">
+	<div class="hobbieModal centerOnDiv topSpace"><img [src]="selectedHobbie.imageModal"></div>
+	<h2 class="centerOnDiv h2ModalColor">{{ selectedHobbie.name }}</h2>
+	<p class="centerOnDiv textHorizontalSpace pModalColor">{{ selectedHobbie.description }}</p>
+  	<br>
+  	<br>
+  	<div class="modal-footer">
+    	<button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  	</div>
+</template>
+
+<div class="container bgColor">
+	<br>
+	<div class="row textHorizontalSpace">
+		<div class="col-sm-12">
+			<h2 class="text-left">{{ title }}</h2>
+		</div>
+	</div>
+	<div class="row textHorizontalSpace">
+		<div class="col-sm-12">
+			<p class="text-left">{{ subtitle }}</p>
+		</div>
+	</div>
+	<br>
+	<div class="row text-center textHorizontalSpace">
+		<div *ngFor="let hobbie of hobbies">
+			<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 col-height"
+				(click)="showHobbie(content, hobbie)">
+				<div class="hobbie"><img [src]="hobbie.image"></div>
+				<p>{{ hobbie.name }}</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+</div>
+

@@ -1,0 +1,35 @@
+<template #content let-c="close" let-d="dismiss">
+	
+	<div class="hobbieModal centerOnDiv topSpace"><img [src]="selectedLenguaje.image"></div>
+	<h2 class="centerOnDiv h2ModalColor">{{ selectedLenguaje.name }}</h2>
+	<h3 class="centerOnDiv h3ModalColor">Talk: {{ selectedLenguaje.speakingLevel }}%</h3>
+	<h3 class="centerOnDiv h3ModalColor">Read: {{ selectedLenguaje.readingLevel }}%</h3>
+	<p class="centerOnDiv textHorizontalSpace">{{ selectedLenguaje.description }}</p>
+  	<br>
+  	<br>
+  	<div class="modal-footer">
+    	<button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  	</div>
+</template>
+
+<div class="container bgColor">
+	<br>
+	<div class="row textHorizontalSpace">
+		<div class="col-sm-12">
+			<h2 class="text-left">{{ title }}</h2>
+		</div>
+	</div>
+	<br>
+	<div class="row text-center textHorizontalSpace">
+		<div *ngFor="let lenguaje of lenguajes">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"
+				(click)="showLenguaje(content, lenguaje)">
+				<div class="hobbie"><img [src]="lenguaje.image"></div>
+				<h3>{{ lenguaje.name}}</h3>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+</div>
+
