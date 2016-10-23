@@ -17,8 +17,8 @@ export class EpFooterComponent implements OnInit {
 
 	ngOnInit() {
 		this.angularText = 'Proudly made with Angular 2';
-		this.angularImg = '../app/shared/images/angular.png';
+		this.angularImg = '../assets/images/angular.png';
 		this.githubText = 'Hosted on Github Pages';
-		this.githubImg = '../app/shared/images/githubLogo.png';
+		this.githubImg = '../assets/images/githubLogo.png';
 	}
 }

@@ -29,7 +29,7 @@ export class SiteDataService {
 		this.user.location = 'Cartago, Costa Rica';
 		this.user.email = 'ep@estebanpadilla.com';
 		this.user.phone = '(506) 8706-6660';
-		this.user.avatar = '../app/shared/images/avatar.png';
+		this.user.avatar = '../assets/images/avatar.png';
 
 		this.aboutMeData.title = 'About me';
 		this.aboutMeData.descriptions = [`
@@ -78,8 +78,8 @@ export class SiteDataService {
 		this.hobbies = [ 	
 			{ 	id:1, 
 				name:'Music', 		
-				image:'../app/shared/images/music.png', 
-				imageModal:'../app/shared/images/musicModal.png', 
+				image:'../assets/images/music.png', 
+				imageModal:'../assets/images/musicModal.png', 
 				description:`Music is a big part of my life and I feel very 
 							passionate for certain styles and mostly the Southern-Rock. 
 							Every now and then you find something that really suits 
@@ -91,8 +91,8 @@ export class SiteDataService {
 			{ 
 				id:2, 
 				name:'Games', 		
-				image:'../app/shared/images/games.png', 
-				imageModal:'../app/shared/images/gamesModal.png', 
+				image:'../assets/images/games.png', 
+				imageModal:'../assets/images/gamesModal.png', 
 				description:`The first video game that I ever play was Asteroids in an 
 							Atari 2600 that my oldest brother brought home. 
 							I remember it was around 9 pm and across the wall 
@@ -105,8 +105,8 @@ export class SiteDataService {
 			{ 
 				id:3, 
 				name:'Reading', 	
-				image:'../app/shared/images/reading.png', 
-				imageModal:'../app/shared/images/readingModal.png', 
+				image:'../assets/images/reading.png', 
+				imageModal:'../assets/images/readingModal.png', 
 				description:`I just to pickup a book on the library and spend 
 							hours sitting in a couch reading it. Now a days I do not have that privilege, 
 							family, work, study and other hobbies consume most of my time 
@@ -116,8 +116,8 @@ export class SiteDataService {
 			{ 
 				id:4, 
 				name:'Apple Inc', 	
-				image:'../app/shared/images/apple.png', 
-				imageModal:'../app/shared/images/appleModal.png', 
+				image:'../assets/images/apple.png', 
+				imageModal:'../assets/images/appleModal.png', 
 				description:`I feel very emotionally attached to all Apple products, 
 							their design and quality is something that I admired and inspires me a lot, 
 							in fact the love to my Macbook Pro and iPhone lead my path 
@@ -127,8 +127,8 @@ export class SiteDataService {
 			{ 
 				id:5, 
 				name:'Guitar', 		
-				image:'../app/shared/images/guitar.png', 
-				imageModal:'../app/shared/images/guitarModal.png', 
+				image:'../assets/images/guitar.png', 
+				imageModal:'../assets/images/guitarModal.png', 
 				description:`When I was about 14 years old I saw Jimy Page 
 							playing his Les Paul the sound and overall the music 
 							really woke up something in me a few decades after 
@@ -138,8 +138,8 @@ export class SiteDataService {
 			{ 
 				id:6, 
 				name:'Movies', 		
-				image:'../app/shared/images/movies.png', 
-				imageModal:'../app/shared/images/moviesModal.png', 
+				image:'../assets/images/movies.png', 
+				imageModal:'../assets/images/moviesModal.png', 
 				description:`I enjoy watching movies that makes me think 
 							even if it is a comedy, drama o whatever, 
 							it needs to fullfill that part of me to 
@@ -148,8 +148,8 @@ export class SiteDataService {
 			{ 
 				id:7, 
 				name:'Coffee', 		
-				image:'../app/shared/images/coffee.png', 
-				imageModal:'../app/shared/images/coffeeModal.png', 
+				image:'../assets/images/coffee.png', 
+				imageModal:'../assets/images/coffeeModal.png', 
 				description:`Growing up on a country with such a long 
 							coffee tradition is hard not to be a coffee 
 							addict and lover. I really enjoy having a 
@@ -158,8 +158,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Scketching', 	
-				image:'../app/shared/images/sketching.png', 
-				imageModal:'../app/shared/images/sketchingModal.png', 
+				image:'../assets/images/sketching.png', 
+				imageModal:'../assets/images/sketchingModal.png', 
 				description:`When I am working on a design I feel the best 
 							and faster way to communicate your ideas is 
 							by drawing sketchs on a piece of paper. `
@@ -167,8 +167,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'TV', 	
-				image:'../app/shared/images/tv.png', 
-				imageModal:'../app/shared/images/tvModal.png', 
+				image:'../assets/images/tv.png', 
+				imageModal:'../assets/images/tvModal.png', 
 				description:`I usually do not watch a lot of tv but sometimes 
 							I take a look a Netflix and find something good. 	
 							We do not have a cable subscription or the local 
@@ -177,16 +177,16 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Cooking', 	
-				image:'../app/shared/images/cook.png', 
-				imageModal:'../app/shared/images/cookModal.png', 
+				image:'../assets/images/cook.png', 
+				imageModal:'../assets/images/cookModal.png', 
 				description:`I like to cook a lot and I am not a chef and anything like it, 
 							I just like to prepare something good for my family to enjoy.`
 			},
 			{ 
 				id:8, 
 				name:'Soccer', 	
-				image:'../app/shared/images/soccer.png', 
-				imageModal:'../app/shared/images/soccerModal.png', 
+				image:'../assets/images/soccer.png', 
+				imageModal:'../assets/images/soccerModal.png', 
 				description:`I enjoy a lot playing soccer with my friends its a shame 
 							that it does not happen very often, people get too involve 
 							with their lives and forget about  leaving time for themselves, 
@@ -195,8 +195,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Swiming', 	
-				image:'../app/shared/images/swiming.png', 
-				imageModal:'../app/shared/images/swimingModal.png', 
+				image:'../assets/images/swiming.png', 
+				imageModal:'../assets/images/swimingModal.png', 
 				description:`Exercise is always good and I grow up near a 
 							lake and I always had time to swim when I was a 
 							kit now I am leaving close to a comunity 
@@ -205,8 +205,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Camping', 	
-				image:'../app/shared/images/camping.png', 
-				imageModal:'../app/shared/images/campingModal.png', 
+				image:'../assets/images/camping.png', 
+				imageModal:'../assets/images/campingModal.png', 
 				description:`I love nature and everytime I can 
 							I escape to spend some time on the rain 
 							forest I do it, who does not?`
@@ -214,8 +214,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Cat', 	
-				image:'../app/shared/images/cat.png', 
-				imageModal:'../app/shared/images/catModal.png', 
+				image:'../assets/images/cat.png', 
+				imageModal:'../assets/images/catModal.png', 
 				description:`When I was a kid I found a cat on the local river, 
 							I gues someone try to get rid of him, 
 							I remember having good times with him. 
@@ -226,8 +226,8 @@ export class SiteDataService {
 			{ 
 				id:8, 
 				name:'Bike', 	
-				image:'../app/shared/images/bike.png', 
-				imageModal:'../app/shared/images/bikeModal.png', 
+				image:'../assets/images/bike.png', 
+				imageModal:'../assets/images/bikeModal.png', 
 				description:`As part of my adventures sometimes I take my 
 							bike for a ride. There is something about the 
 							feeling of freedom that riding a bike gives me, 
@@ -242,7 +242,7 @@ export class SiteDataService {
 				descriptions:[`Part of my daily routine is to use my imagination 
 								to come up with new ideas to solve problems, 
 								create new things, entertain my kids, cook a meal, etc.`], 
-				image:'../app/shared/images/creativity.png',
+				image:'../assets/images/creativity.png',
 				listTitle:'',
 				list:[]
 			},
@@ -254,7 +254,7 @@ export class SiteDataService {
 							the most importan is the effective comunication, 
 							being open to receive and give positive feed 
 							back and leaving your ego at the door step.`],
-				image:'../app/shared/images/teamWork.png',
+				image:'../assets/images/teamWork.png',
 				listTitle:'',
 				list:[]
 			},
@@ -266,7 +266,7 @@ export class SiteDataService {
 							the team very well and determine their strengths 
 							and weaknesses prior to assign tasks, 
 							once you know that is easy to delegate and manage a team.`],
-				image:'../app/shared/images/teamManagement.png',
+				image:'../assets/images/teamManagement.png',
 				listTitle:'',
 				list:[]
 			},
@@ -277,7 +277,7 @@ export class SiteDataService {
 								a big part of a proyect and having a line open to 
 								communicate constantly I beleive is essencial to 
 								any thing you want to do when working on a team.`],
-				image:'../app/shared/images/comunication.png',
+				image:'../assets/images/comunication.png',
 				listTitle:'',
 				list:[]
 			},
@@ -287,7 +287,7 @@ export class SiteDataService {
 							and keep problems and accidents 
 							from happening, it is what parents do and I usually 
 							apply the same tecniques to my work.`],
-				image:'../app/shared/images/timeManagement.png',
+				image:'../assets/images/timeManagement.png',
 				listTitle:'',
 				list:[]
 			},
@@ -303,7 +303,7 @@ export class SiteDataService {
 							to reduce the likelihood of some situations occurring. 
 							I beleive that I have enought experience to 
 							understand and adapt to this situation quickly.`],
-				image:'../app/shared/images/timeManagement.png',
+				image:'../assets/images/timeManagement.png',
 				listTitle:'',
 				list:[]
 			},
@@ -316,7 +316,7 @@ export class SiteDataService {
 								I need to do, I tried to keep this note in mind, 
 								wisdom is knowing what to do next, skill is 
 								knowing how to do it,  and virtue is doing it.`],
-				image:'../app/shared/images/timeManagement.png',
+				image:'../assets/images/timeManagement.png',
 				listTitle:'',
 				list:[]
 			},
@@ -329,7 +329,7 @@ export class SiteDataService {
 								is not present, as a parent, I am in charge 
 								of making responsible desicions every day, 
 								hour and minute of my life.`],
-				image:'../app/shared/images/leadership.png',
+				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
 			},
@@ -341,7 +341,7 @@ export class SiteDataService {
 							in people and I do not think you are only worthy 
 							on one chance in life, sometimes people 
 							needs more than one chance to do the right thing.`],
-				image:'../app/shared/images/empathy.png',
+				image:'../assets/images/empathy.png',
 				listTitle:'',
 				list:[]
 			},
@@ -351,7 +351,7 @@ export class SiteDataService {
 								based on a number of key skills, I can mentions 
 								some that I think I have and makes me a good leader, 
 								trustworthy, reliable, helpfull, listener, proactive.`],
-				image:'../app/shared/images/leadership.png',
+				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
 			},
@@ -361,7 +361,7 @@ export class SiteDataService {
 							things following the instructions from a tutorial, 
 							a cooworker, a site, a book to accomplish 
 							our responsibilities or bring to live our ideas.`],
-				image:'../app/shared/images/fastlearner.png',
+				image:'../assets/images/fastlearner.png',
 				listTitle:'',
 				list:[]
 			},
@@ -371,7 +371,7 @@ export class SiteDataService {
 								to look after things or keep secrets that are very 
 								important to other people. I am also committed and devoted 
 								to things or people that mean a lot to me or put their trust on me.`],
-				image:'../app/shared/images/leadership.png',
+				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
 			},
@@ -381,7 +381,7 @@ export class SiteDataService {
 							my performance when doing tasks in the 
 							fastest and simplest ways that they can be done, 
 							like is too short to spend to much time in one task.`],
-				image:'../app/shared/images/fastlearner.png',
+				image:'../assets/images/fastlearner.png',
 				listTitle:'',
 				list:[]
 			},
@@ -391,7 +391,7 @@ export class SiteDataService {
 							sometimes with very little advanced notice, 
 							this could make someone feel under presure and stressfull, 
 							I look at it this way, it is a new challenge.`],
-				image:'../app/shared/images/leadership.png',
+				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
 			},
@@ -401,7 +401,7 @@ export class SiteDataService {
 							conscious analysis to understand causes instead 
 							of just the effects, sometimes I feel that I go to 
 							far by trying to have everything well aligned, ui-wise speakling.`],
-				image:'../app/shared/images/leadership.png',
+				image:'../assets/images/leadership.png',
 				listTitle:'',
 				list:[]
 			}
@@ -411,48 +411,48 @@ export class SiteDataService {
 			{
 				title:'Xcode', 
 				descriptions:[],
-				image:'../app/shared/images/appleInc.png',
+				image:'../assets/images/appleInc.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Paintcode', 
 				descriptions:[],
-				image:'../app/shared/images/paintCode.png',
+				image:'../assets/images/paintCode.png',
 				listTitle:'',
 				list:[]
 			},
 			{	title:'Illustrator', 
 				descriptions:[],
-				image:'../app/shared/images/illustrator.png',
+				image:'../assets/images/illustrator.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Photoshop', 
 				descriptions:[],
-				image:'../app/shared/images/photoshop.png',
+				image:'../assets/images/photoshop.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Sketchapp', 
 				descriptions:[],
-				image:'../app/shared/images/sketchapp.png',
+				image:'../assets/images/sketchapp.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Git', 
 				descriptions:[],
-				image:'../app/shared/images/github.png',
+				image:'../assets/images/github.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Jira', 
 				descriptions:[],
-				image:'../app/shared/images/jira.png',
+				image:'../assets/images/jira.png',
 				listTitle:'',
 				list:[]
 			}
@@ -462,21 +462,21 @@ export class SiteDataService {
 			{
 				title:'iOS', 
 				descriptions:[],
-				image:'../app/shared/images/appleInc.png',
+				image:'../assets/images/appleInc.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Unity 3D', 
 				descriptions:[],
-				image:'../app/shared/images/unity3d.png',
+				image:'../assets/images/unity3d.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Web', 
 				descriptions:[],
-				image:'../app/shared/images/web.png',
+				image:'../assets/images/web.png',
 				listTitle:'',
 				list:[]
 			},
@@ -487,14 +487,14 @@ export class SiteDataService {
 				name:'English',
 				speakingLevel:'80',
 				readingLevel:'90',
-				image:'../app/shared/images/english.png',
+				image:'../assets/images/english.png',
 				description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 			}, 
 			{
 				name:'Spanish',
 				speakingLevel:'100',
 				readingLevel:'100',
-				image:'../app/shared/images/spanish.png',
+				image:'../assets/images/spanish.png',
 				description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 			}
 		];
@@ -508,7 +508,7 @@ export class SiteDataService {
 				company:'Fair Play Labs', 
 				roll:'Game Developer', 
 				period:'Dec 2011 - Nov 2013',
-				image:'../app/shared/images/gameDeveloper.png',
+				image:'../assets/images/gameDeveloper.png',
 				rollDescription:`Working on Fair Play Labs was one 
 								of the most happiest experiences I ever 
 								had and not only because the work enviroment 
@@ -537,7 +537,7 @@ export class SiteDataService {
 				company:'Hewllet Packard Costa Rica', 
 				roll:'Software engineer', 
 				period:'Nov 2013 - April 2014',
-				image:'../app/shared/images/developer.png',
+				image:'../assets/images/developer.png',
 				rollDescription:'Roll description',
 				rollResponsabilities:['Roll responsability 1', 'Roll responsability 2']
 			},
@@ -545,7 +545,7 @@ export class SiteDataService {
 				company:'Biin (startup)', 
 				roll:'iOS Developer', 
 				period:'May 2014 - June 2016',
-				image:'../app/shared/images/appleInc.png',
+				image:'../assets/images/appleInc.png',
 				rollDescription:'Roll description',
 				rollResponsabilities:['Roll responsability 1', 'Roll responsability 2']
 			}
