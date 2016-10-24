@@ -1,24 +1,69 @@
-h2 {
-	color: white;
-	font-size: 30px;
-	font-weight: 900;
-    font-family: 'Lato', sans-serif;
+.p1 {
+	color: #404040;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Droid Sans Mono', monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: left;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height:30px;
 }
 
+.p2 {
+	color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Racing Sans One', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}	
+
 .bgColor1 {
-	background-color: #FDD90B;
 	height: inherit;
-	margin-left: 15px;
+	background: repeating-linear-gradient(
+	  135deg,
+	  #FDD90B,
+	  #FDD90B 10px,
+	  #ffdb27 10px,
+	  #ffdb27 20px
+	);
 }
 
 .bgColor2 {
-	background-color: #F05A28;
-	height: inherit;
-	margin-right: 15px;
 	
+	height: inherit;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #ed572f,
+	  #ed572f 10px,
+	  #f05a28 10px,
+	  #f05a28 20px
+	);
 }
 
+
+
 .textHorizontalSpace {
-	height: inherit;
-	display: inline-flex;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textHorizontalSpace > div[class*='col-'] {  
+  display: flex;
+  flex-direction: column;
 }

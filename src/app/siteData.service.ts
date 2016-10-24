@@ -33,7 +33,7 @@ export class SiteDataService {
 
 		this.aboutMeData.title = 'About me';
 		this.aboutMeData.descriptions = [`
-		Based in Costa Rica, somewhere near Cartago, 
+		Based in Costa Rica, somewhere near Cartago where 
 		I live happily with my lovely wife and four daughters.`,
 		
 		`If I have to give myself a job title I suppose it would be 
@@ -44,10 +44,6 @@ export class SiteDataService {
 		
 		`For the past two years I have been working mostly on the iOS development and right 
 		now I am catching up with some of the latest web technologies like Angular 2.`,
-
-		`I believe in developing things with longevity in mind always focusing on the final user needs.
-		Designing for the future is profitable and leaves a lasting 
-		experience.`, 
 
 		`What I pride myself the most is that not matter how hard the task 
 		I will always look for a solution to get the job done on time. 

@@ -16,8 +16,14 @@
 	<br>
 	<br>
 	<div class="row textHorizontalSpace">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h2 class="text-left">{{ title }}</h2>
+			<p class="text-left">{{ description }}</p>
+		</div>
+	</div>
+	<div class="row textHorizontalSpace">
 		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h2 class="text-left">Skills</h2>
+			<h3 class="text-left">Skills</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div *ngFor="let skill of skillsToolsDevelopmentData.skills">
@@ -27,7 +33,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-md-3 col-lg-3">
-			<h2 class="text-left">Tools</h2>
+			<h3 class="text-left">Tools</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div *ngFor="let tool of skillsToolsDevelopmentData.tools">
@@ -37,7 +43,7 @@
 			</div>
 		</div>
 		<div class="col-sm-4 col-md-4 col-lg-4">
-			<h2 class="text-left">Development</h2>
+			<h3 class="text-left">Development</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div *ngFor="let development of skillsToolsDevelopmentData.development">

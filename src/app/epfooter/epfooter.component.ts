@@ -11,6 +11,8 @@ export class EpFooterComponent implements OnInit {
 	angularImg:string;
 	firebaseText:string;
 	firebaseImg:string;
+	googleFontText:string;
+	googleFontImg:string;
 	githubText:string;
 	githubImg:string;
 	rights:string;
@@ -22,6 +24,8 @@ export class EpFooterComponent implements OnInit {
 		this.angularImg = '../assets/images/angular.png';
 		this.firebaseText = 'Hosted on Google Firebase';
 		this.firebaseImg = '../assets/images/firebaseLogo.png';
+		this.googleFontText = 'This site uses Google Fonts';
+		this.googleFontImg = '../assets/images/googleFonts.png';
 		this.githubText = 'Repository on Github';
 		this.githubImg = '../assets/images/githubLogo.png';
 	}

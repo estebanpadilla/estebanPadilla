@@ -14,7 +14,10 @@ import { SkillsToolsDevelopmentComponent } from './skillsToolsDevelopment/skills
 import { LenguajesComponent } from './lenguajes/lenguajes.component';
 import { ExperienceEducationComponent } from './experienceEducation/experienceEducation.component';
 import { EpFooterComponent } from './epfooter/epfooter.component';
+import { DownloadComponent } from './download/download.component';
 import { BelieveComponent } from './believe/believe.component';
+import { ContactComponent } from './contact/contact.component';
+
 import { SiteDataService } from './siteData.service';
 
 @NgModule({
@@ -29,7 +32,9 @@ import { SiteDataService } from './siteData.service';
     LenguajesComponent,
     ExperienceEducationComponent,
     EpFooterComponent,
-    BelieveComponent
+    DownloadComponent,
+    BelieveComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

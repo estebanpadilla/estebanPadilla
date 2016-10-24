@@ -5,6 +5,13 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+	color: white;
+	font-size: 25px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
 p {
 	color: white;
 	font-size: 20px;

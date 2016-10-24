@@ -1,0 +1,33 @@
+h2 {
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2:hover {
+	color:#FFDD17;
+}
+
+.bgColor {
+	background-color: #404040;
+}
+
+.textHorizontalSpace {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.centerOnDiv{
+	text-align: center;
+}
+
+span {
+	margin-right: 4px;
+}

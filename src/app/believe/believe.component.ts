@@ -13,7 +13,7 @@ export class BelieveComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {
-		this.believe1 = `I believe in developing things with longevity in mind always focusing on the final user needs. Designing for the future is profitable and leaves a lasting experience.`;	
-		this.believe2 = `I believe in developing things with longevity in mind always focusing on the final user needs.`;	
+		this.believe1 = `Being a developer is care for people and their needs and find the best solution to help them`;	
+		this.believe2 = `I believe in developing things with longevity in mind focusing on the final user needs`;	
 	}
 }

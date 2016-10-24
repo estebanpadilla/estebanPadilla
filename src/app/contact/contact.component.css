@@ -1,0 +1,61 @@
+h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	margin-top: -10px;
+}
+
+.bgColor1 {
+	background-color: #652c90;
+	text-align: center;
+	height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.bgColor2 {
+	background-color: #7c51a1;
+	background: repeating-linear-gradient(
+	  135deg,
+	  #815da8,
+	  #815da8 10px,
+	  #7e59a5 10px,
+	  #7e59a5 20px
+	);
+
+	text-align: center;
+	height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.textHorizontalSpace {
+	margin-right: 0px;
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textHorizontalSpace > div[class*='col-'] {  
+  display: flex;
+  flex-direction: column;
+}
