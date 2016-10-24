@@ -50,13 +50,13 @@ export class SiteDataService {
 		experience.`, 
 
 		`What I pride myself the most is that not matter how hard the task 
-		I will always look for a solution to get the job done on time . 
+		I will always look for a solution to get the job done on time. 
 		This is the most enjoyable part of my job, when you go to sleep at 
 		night knowing that you accomplished something today, what a nice feeling...`
 		];
+
 		this.aboutMeData.listTitle = '';
 		this.aboutMeData.list = [];
-
 		this.whatCanIDoData.title = 'Do you need a reliable hand with your development project?';
 		this.whatCanIDoData.image = '../assets/images/developerDesk.png';
 		this.whatCanIDoData.descriptions = [
@@ -64,6 +64,7 @@ export class SiteDataService {
 		I pride myself in communication and initiative to ensure my involvement 
 		is always seamless, flexible, cost-effective, and the highest of quality.`
 		];
+		
 		this.whatCanIDoData.listTitle = 'Here’s how I can help you:';
 		this.whatCanIDoData.list = [
 		'I can help you on all the development stages of your iOS project.',
@@ -493,16 +494,6 @@ export class SiteDataService {
 
 		this.lenguajes = [ 
 			{
-				name:'English',
-				speakingLevel:'80',
-				readingLevel:'90',
-				image:'../assets/images/english.png',
-				description:`I lived in the US for almost a decade  and I 
-							got to learn the lenguaje and the culture. 
-							I really tresure in my heart the time 
-							I spend there.`
-			}, 
-			{
 				name:'Spanish',
 				speakingLevel:'100',
 				readingLevel:'100',
@@ -514,6 +505,16 @@ export class SiteDataService {
 							did too, also is the official lenguaje in 
 							Costa Rica, that should be enough to 
 							explain why I speak spanish.`
+			},
+			{
+				name:'English',
+				speakingLevel:'95',
+				readingLevel:'99',
+				image:'../assets/images/english.png',
+				description:`I lived in the US for almost a decade  and I 
+							got to learn the lenguaje and the culture. 
+							I really tresure in my heart the time 
+							I spend there.`
 			}
 		];
 

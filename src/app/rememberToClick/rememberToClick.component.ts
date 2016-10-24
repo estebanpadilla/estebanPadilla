@@ -12,6 +12,6 @@ export class RememberToClickComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {
-		this.title = 'You can to click on my hobbies, skills and rolls to see more information';	
+		this.title = 'You can to click on my hobbies, skills and rolls to see more information.';	
 	}
 }

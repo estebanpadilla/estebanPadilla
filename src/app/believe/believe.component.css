@@ -1,0 +1,24 @@
+h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.bgColor1 {
+	background-color: #FDD90B;
+	height: inherit;
+	margin-left: 15px;
+}
+
+.bgColor2 {
+	background-color: #F05A28;
+	height: inherit;
+	margin-right: 15px;
+	
+}
+
+.textHorizontalSpace {
+	height: inherit;
+	display: inline-flex;
+}
