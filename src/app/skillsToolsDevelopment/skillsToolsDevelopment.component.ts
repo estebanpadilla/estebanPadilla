@@ -26,7 +26,7 @@ export class SkillsToolsDevelopmentComponent {
 	ngOnInit() {
 		this.skillsToolsDevelopmentData = this.siteDataService.skillsToolsDevelopmentData;
 		this.title = 'I am good in...';
-		this.description = 'Here a list of different things and fields and I beleive I am good doing.';
+		this.description = 'Here a list of different things and fields that I beleive I am good doing.';
 	}
 
 	showData(content, data:Data) {

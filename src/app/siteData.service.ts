@@ -31,19 +31,19 @@ export class SiteDataService {
 		this.user.phone = '(506) 8706-6660';
 		this.user.avatar = '../assets/images/avatar.png';
 
-		this.aboutMeData.title = 'About me';
+		this.aboutMeData.title = 'A bit about me';
 		this.aboutMeData.descriptions = [`
 		Based in Costa Rica, somewhere near Cartago I live 
 		happily with my lovely wife and four daughters.`,
 		
 		`If I have to give myself a job title I suppose it would be 
-		a mobile developer since all my work experiences have been 
-		around mobile devices either in games or applications. 
+		a iOS developer since all my work experiences have been 
+		around Apple mobile devices either in games or applications. 
 		It gets straight to the point although my expertises and 
 		knowledge covers a whole lot more.`,
 		
-		`For the past two years I have been working mostly on the iOS development and right 
-		now I am catching up with some of the latest web technologies like Angular 2.`,
+		`For the past years my focus has being native iOS development always 
+		keeping update on new technologies like Angular 2, wich I love it. `,
 
 		`What I pride myself the most is that not matter how hard the task 
 		I will always look for a solution to get the job done on time. 
@@ -418,37 +418,47 @@ export class SiteDataService {
 			},
 			{
 				title:'Paintcode', 
-				descriptions:[`On my last project I used paintCode to 
-							create all the graphics of my iOS app Biin. 
-							There a whole bunch of reason why to do this 
-							way the most important for me, control.`],
+				descriptions:[`On my last project I used PaintCode to 
+							create all the icons for buttons on my iOS app Biin. 
+							There a whole bunch of reason why to do this way 
+							the most important for me is control I have over 
+							the color and size without loosing quality on the final result.`],
 				image:'../assets/images/paintCode.png',
 				listTitle:'',
 				list:[]
 			},
 			{	title:'Illustrator', 
-				descriptions:[`I use illustrator for many different purposes like any graphic designer.`],
+				descriptions:[`Illustrator is a tool that be adapated to 
+							many working scenarios, in my case, 
+							I used it to create icons, logos, flow charts, 
+							info-graphics, low and high level mockups 
+							and any graphic asset I need for a proyect. `],
 				image:'../assets/images/illustrator.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Photoshop', 
-				descriptions:[`I use photoshop for many different purposes like any graphic designer.`],
+				descriptions:[`I use photoshop for many different purposes 
+							like any graphic designer but mostly to enhance 
+							and manipulate images to improve their overall 
+							appearance. It's an excellent tool that makes 
+							photo editing easy and efficient.`],
 				image:'../assets/images/photoshop.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Sketchapp', 
-				descriptions:[`I use SketchApp mainly for ui design.`],
+				descriptions:[`SketchApp is an excellent tool to create and show off your UI design, 
+							it has many features that allows you to work fast and easy.`],
 				image:'../assets/images/sketchapp.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Git', 
-				descriptions:[`It is very a keep safe all my important project, like this site.`],
+				descriptions:[`It is where I keep safe all my important project, just like this site.`],
 				image:'../assets/images/github.png',
 				listTitle:'',
 				list:[]
@@ -600,7 +610,7 @@ export class SiteDataService {
 									'Communicate product progress to investor and early adopters.',
 									'Design product features and overall vision.',
 									'Communicate with clients to validate the product vision.',
-									'Find people with talent and willing to work on a startup.'
+									'Lead the recruiting process to find the best talent available.'
 									]
 			}
 		];

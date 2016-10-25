@@ -18,8 +18,8 @@ export class ContactComponent implements OnInit {
 	ngOnInit() {
 		this.user = this.siteDataService.user;	
 		this.title = 'Interested in hiring with me?';
-		this.description = `I gotta tell you that I take my work very seriusly 
-							and I am always aiming for perfection and quality, 
+		this.description = `I have to tell you that I take my work very seriously 
+							and I am always aiming for perfection and quality,  
 							if you are interested we can talk and find the best 
 							fit for both of us.`;
 	}

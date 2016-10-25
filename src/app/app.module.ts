@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { EstebanPadillaComponent } from './estebanPadilla/estebanPadilla.component';
 import { AboutMeComponent } from './aboutMe/aboutMe.component';
+import { IosdeveloperComponent } from './iosdeveloper/iosdeveloper.component';
 import { WhatCanIDoComponent } from './whatCanIDo/whatCanIDo.component'
 import { RememberToClickComponent } from './rememberToClick/rememberToClick.component';
 import { HobbiesComponent } from './hobbies/hobbies.component'
@@ -25,6 +26,7 @@ import { SiteDataService } from './siteData.service';
     AppComponent,
     EstebanPadillaComponent,
     AboutMeComponent,
+    IosdeveloperComponent,
     WhatCanIDoComponent,
     RememberToClickComponent,
     HobbiesComponent,

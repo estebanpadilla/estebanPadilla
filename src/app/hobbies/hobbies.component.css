@@ -41,6 +41,11 @@ button {
 	margin-right: 30px;
 }
 
+.textHorizontalSpace2 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .hobbie img {
 	cursor: pointer;	
 	border: 4px solid white;

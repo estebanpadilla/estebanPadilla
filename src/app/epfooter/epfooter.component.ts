@@ -22,7 +22,7 @@ export class EpFooterComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {
-		this.title = 'Technologies and tools';
+		this.title = 'Technologies and tools used on this site';
 		this.description = `Sometimes when visited a site I wonder 
 							what tools and technologies did they use to 
 							created it and that is why I am adding this 
