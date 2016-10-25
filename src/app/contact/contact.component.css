@@ -14,6 +14,23 @@ p {
 	margin-top: -10px;
 }
 
+a {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	margin-top: -10px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	margin-top: -10px;
+}
+
 .bgColor1 {
 	background-color: #652c90;
 	text-align: center;
