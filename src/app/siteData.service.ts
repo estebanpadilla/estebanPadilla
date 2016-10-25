@@ -467,21 +467,33 @@ export class SiteDataService {
 		this.development = [
 			{
 				title:'iOS', 
-				descriptions:[],
+				descriptions:[`Ever since the iPhone came out I wanted 
+								to become an iOS developer, I thought that 
+								I was really cool work on those devices.`],
 				image:'../assets/images/appleInc.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Unity 3D', 
-				descriptions:[],
+				descriptions:[`One of my passions is game 
+								development and I use Unity 3D for this 
+								purpose. While I was working on Fair Play 
+								Labs I got to learn the tool very well, 
+								in fact I am working on a game right now 
+								and I am hoping to release it soon.`],
 				image:'../assets/images/unity3d.png',
 				listTitle:'',
 				list:[]
 			},
 			{
 				title:'Web', 
-				descriptions:[],
+				descriptions:[`I know the way around html, css and 
+							javascript and I'm confident that about my 
+							web development skills, perhaps this site 
+							is a showcase about that.`,
+							`I have done other projects for clients but 
+							thoose sites are not online anymore, sorry...`],
 				image:'../assets/images/web.png',
 				listTitle:'',
 				list:[]

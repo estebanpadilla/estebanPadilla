@@ -11,6 +11,8 @@ import { SiteDataService } from '../siteData.service';
 export class EstebanPadillaComponent {
 
 	user:User;// = new User();
+	updateTitle:string;
+	lastUpdate:string;
 
 	constructor(private siteDataService:SiteDataService){
 		// this.user.name = 'Esteban Padilla';
@@ -23,6 +25,8 @@ export class EstebanPadillaComponent {
 
 	ngOnInit() {
 		this.user = this.siteDataService.user;
+		this.updateTitle = 'Updated';
+		this.lastUpdate = 'Oct 2017';
 	}
 
 
