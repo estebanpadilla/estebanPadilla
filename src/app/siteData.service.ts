@@ -33,8 +33,8 @@ export class SiteDataService {
 
 		this.aboutMeData.title = 'About me';
 		this.aboutMeData.descriptions = [`
-		Based in Costa Rica, somewhere near Cartago where 
-		I live happily with my lovely wife and four daughters.`,
+		Based in Costa Rica, somewhere near Cartago I live 
+		happily with my lovely wife and four daughters.`,
 		
 		`If I have to give myself a job title I suppose it would be 
 		a mobile developer since all my work experiences have been 

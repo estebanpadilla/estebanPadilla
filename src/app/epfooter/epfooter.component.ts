@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EpFooterComponent implements OnInit {
 	
+	title:string;
+	description:string;
 	angularText:string;
 	angularImg:string;
 	firebaseText:string;
@@ -20,6 +22,17 @@ export class EpFooterComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {
+		this.title = 'Technologies and tools';
+		this.description = `Sometimes when visited a site I wonder 
+							what tools and technologies did they use to 
+							created it and that is why I am adding this 
+							section in case you have the same questions. 
+							I started learning Angular 2 a few weeks ago 
+							and the best way to understand something is 
+							creating something that is why I used here. 
+							With the hosting I decided to look for something 
+							free, reliable and easy to setup so 
+							I ended using Firebase.`;
 		this.angularText = 'Proudly made with Angular 2';
 		this.angularImg = '../assets/images/angular.png';
 		this.firebaseText = 'Hosted on Google Firebase';
