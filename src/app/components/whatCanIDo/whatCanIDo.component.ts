@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Data } from '../shared/models/data';
-import { SiteDataService } from '../siteData.service';
+import { Data } from '../../models/data';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'whatCanIDo',

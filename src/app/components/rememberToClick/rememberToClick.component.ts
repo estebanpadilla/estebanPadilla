@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
 	selector: 'rememberToClick',
 	templateUrl: './rememberToClick.component.html',
-	styleUrls:['rememberToClick.component.css']
+	styleUrls:['./rememberToClick.component.css']
 })
 export class RememberToClickComponent implements OnInit {
 	

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { User } from '../shared/models/user';
-import { SiteDataService } from '../siteData.service';
+import { User } from '../../models/user';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'estebanpadilla',

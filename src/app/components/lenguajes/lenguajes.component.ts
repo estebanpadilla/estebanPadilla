@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { Lenguaje } from '../shared/models/lenguaje';
-import { SiteDataService } from '../siteData.service';
+import { Lenguaje } from '../../models/lenguaje';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'lenguajes',

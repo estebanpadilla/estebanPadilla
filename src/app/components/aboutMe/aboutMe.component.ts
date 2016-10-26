@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Data } from '../shared/models/data';
-import { User } from '../shared/models/user';
-import { SiteDataService } from '../siteData.service';
+import { Data } from '../../models/data';
+import { User } from '../../models/user';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'aboutMe',

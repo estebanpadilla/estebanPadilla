@@ -1,37 +1,35 @@
 import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { Data } from '../shared/models/data';
-import { SkillsToolsDevelopmentData } from '../shared/models/skillsToolsDevelopmentData';
-import { SiteDataService } from '../siteData.service';
+import { Hobbie } from '../../models/hobbie';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
-	selector: 'skillsToolsDevelopment',
-	templateUrl: './skillsToolsDevelopment.component.html',
-	styleUrls: ['./skillsToolsDevelopment.component.css']
-
+	selector: 'hobbies',
+	templateUrl: './hobbies.component.html',
+	styleUrls:['./hobbies.component.css']
 })
-export class SkillsToolsDevelopmentComponent {
+
+export class HobbiesComponent  {
 	
-	title:string;
-	description:string;
 	closeResult: string;
-	selectedData:Data;
-	skillsToolsDevelopmentData;
+	title:string;
+	subtitle:string;
+	selectedHobbie:Hobbie;
+	hobbies:Hobbie[];
 
 	constructor( private modalService: NgbModal,
 				 private siteDataService:SiteDataService ) {
-
+		this.title = 'Hobbie and interests';	
+		this.subtitle = 'Here is a list of all thing that I am obsessed about, please do not judge me for some of the things I like.';
 	}
 
 	ngOnInit() {
-		this.skillsToolsDevelopmentData = this.siteDataService.skillsToolsDevelopmentData;
-		this.title = 'I am good in...';
-		this.description = 'Here a list of different things and fields that I beleive I am good doing.';
+		this.hobbies = this.siteDataService.hobbies;
 	}
 
-	showData(content, data:Data) {
-		
-		this.selectedData = data;
+	showHobbie(content, hobbie) {
+
+		this.selectedHobbie = hobbie;
 		this.modalService.open(content).result.then((result) => {
       		this.closeResult = `Closed with: ${result}`;
     	}, (reason) => {

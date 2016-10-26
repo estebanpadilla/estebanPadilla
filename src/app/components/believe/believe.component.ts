@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
 	selector: 'believe',
-	templateUrl: 'believe.component.html',
+	templateUrl: './believe.component.html',
 	styleUrls:['./believe.component.css']
 })
 export class BelieveComponent implements OnInit {

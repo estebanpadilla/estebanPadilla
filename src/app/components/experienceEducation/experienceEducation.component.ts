@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { ExperienceEducationData } from '../shared/models/experienceEducationData'
-import { Experience } from '../shared/models/experience';
-import { SiteDataService } from '../siteData.service';
+import { ExperienceEducationData } from '../../models/experienceEducationData'
+import { Experience } from '../../models/experience';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'experienceEducation',

@@ -5,21 +5,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { EstebanPadillaComponent } from './estebanPadilla/estebanPadilla.component';
-import { AboutMeComponent } from './aboutMe/aboutMe.component';
-import { IosdeveloperComponent } from './iosdeveloper/iosdeveloper.component';
-import { WhatCanIDoComponent } from './whatCanIDo/whatCanIDo.component'
-import { RememberToClickComponent } from './rememberToClick/rememberToClick.component';
-import { HobbiesComponent } from './hobbies/hobbies.component'
-import { SkillsToolsDevelopmentComponent } from './skillsToolsDevelopment/skillsToolsDevelopment.component';
-import { LenguajesComponent } from './lenguajes/lenguajes.component';
-import { ExperienceEducationComponent } from './experienceEducation/experienceEducation.component';
-import { EpFooterComponent } from './epfooter/epfooter.component';
-import { DownloadComponent } from './download/download.component';
-import { BelieveComponent } from './believe/believe.component';
-import { ContactComponent } from './contact/contact.component';
+import { EstebanPadillaComponent } from './components/estebanPadilla/estebanPadilla.component';
+import { AboutMeComponent } from './components/aboutMe/aboutMe.component';
+import { IosdeveloperComponent } from './components/iosdeveloper/iosdeveloper.component';
+import { WhatCanIDoComponent } from './components/whatCanIDo/whatCanIDo.component'
+import { RememberToClickComponent } from './components/rememberToClick/rememberToClick.component';
+import { HobbiesComponent } from './components/hobbies/hobbies.component'
+import { SkillsToolsDevelopmentComponent } from './components/skillsToolsDevelopment/skillsToolsDevelopment.component';
+import { LenguajesComponent } from './components/lenguajes/lenguajes.component';
+import { ExperienceEducationComponent } from './components/experienceEducation/experienceEducation.component';
+import { EpFooterComponent } from './components/epfooter/epfooter.component';
+import { DownloadComponent } from './components/download/download.component';
+import { BelieveComponent } from './components/believe/believe.component';
+import { ContactComponent } from './components/contact/contact.component';
 
-import { SiteDataService } from './siteData.service';
+import { SiteDataService } from './services/siteData.service';
 
 @NgModule({
   declarations: [

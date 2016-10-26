@@ -1,11 +1,11 @@
-import { User } from './shared/models/user';
-import { Data } from './shared/models/data';
-import { Hobbie } from './shared/models/hobbie';
-import { SkillsToolsDevelopmentData } from './shared/models/skillsToolsDevelopmentData';
-import { Lenguaje } from './shared/models/lenguaje';
-import { Education } from './shared/models/education';
-import { Experience } from './shared/models/experience';
-import { ExperienceEducationData } from './shared/models/experienceEducationData';
+import { User } from '../models/user';
+import { Data } from '../models/data';
+import { Hobbie } from '../models/hobbie';
+import { SkillsToolsDevelopmentData } from '../models/skillsToolsDevelopmentData';
+import { Lenguaje } from '../models/lenguaje';
+import { Education } from '../models/education';
+import { Experience } from '../models/experience';
+import { ExperienceEducationData } from '../models/experienceEducationData';
 
 export class SiteDataService {
 	
@@ -29,7 +29,7 @@ export class SiteDataService {
 		this.user.location = 'Cartago, Costa Rica';
 		this.user.email = 'ep@estebanpadilla.com';
 		this.user.phone = '(506) 8706-6660';
-		this.user.avatar = '../assets/images/avatar.png';
+		this.user.avatar = '../assets/images/avatar.svg';
 
 		this.aboutMeData.title = 'A bit about me';
 		this.aboutMeData.descriptions = [`

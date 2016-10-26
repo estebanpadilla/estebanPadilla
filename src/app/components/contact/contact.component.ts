@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SiteDataService } from '../siteData.service';
-import { User } from '../shared/models/user';
+import { SiteDataService } from '../../services/siteData.service';
+import { User } from '../../models/user';
 
 @Component({
 	selector: 'contact',

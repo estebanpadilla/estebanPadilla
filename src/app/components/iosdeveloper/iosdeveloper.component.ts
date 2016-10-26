@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SiteDataService } from '../siteData.service';
+import { SiteDataService } from '../../services/siteData.service';
 
 @Component({
 	selector: 'iosdeveloper',
@@ -52,7 +52,7 @@ export class IosdeveloperComponent implements OnInit {
 						I have seen trends to come and go but because nothing can 
 						beat native developement done right way.`;
 
-		this.image = '../assets/images/iosDevelopmentImg.png';
+		this.image = '../assets/images/iosDevelopmentImg.svg';
 
 		this.titleIOS = 'App Development';
 		this.descriptionIOS = `You have an amazing app idea and 
@@ -68,7 +68,7 @@ export class IosdeveloperComponent implements OnInit {
 							development for various platforms. 
 							Currently I’m specialized in native 
 							iOS development. `;
-		this.imageIOS = '../assets/images/iosDevelopmentIcon.png';
+		this.imageIOS = '../assets/images/iosDevelopmentIcon.svg';
 
 		this.titleGame = 'Game Development';
 		this.descriptionGame = `I also have a lot of experience in creating 
@@ -76,6 +76,6 @@ export class IosdeveloperComponent implements OnInit {
 							a proper boost to completion and not only that, 
 							I can also help you with recomendation and advice 
 							on the all stages to make your game a great sucess.`;
-		this.imageGame = '../assets/images/gameDevelopmentIcon.png';
+		this.imageGame = '../assets/images/gameDevelopmentIcon.svg';
 	}
 }
