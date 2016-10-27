@@ -5,4 +5,8 @@ export class User {
 	email:string;
 	phone:string;
 	avatar:string;
+	twitter:string;
+	twitterUrl:string;
+	github:string;
+	githubUrl:string;
 }

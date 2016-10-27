@@ -91,7 +91,6 @@ a:hover {
 
 }
 
-
 .lastUpdateBox_p {
     color: #404040;
     font-size: 16px;
@@ -101,4 +100,36 @@ a:hover {
     text-align: center;
     margin-left: -15px;
     margin-top: 16px;
+}
+
+.twitter {
+    position:absolute;
+    float: right;
+    top: 2%;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.twitter img {
+	height: 40px;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.github {
+    position:absolute;
+    float: right;
+    top: 2%;
+    right: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+.github img {
+	height: 40px;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
 }

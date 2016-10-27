@@ -30,6 +30,10 @@ export class SiteDataService {
 		this.user.email = 'ep@estebanpadilla.com';
 		this.user.phone = '(506) 8706-6660';
 		this.user.avatar = '../assets/images/avatar.svg';
+		this.user.github = '../assets/images/githubLogo.svg';
+		this.user.githubUrl = 'https://github.com/estebanpadilla';
+		this.user.twitter = './assets/images/twitterLogo.svg';
+		this.user.twitterUrl = 'https://twitter.com/_estebanpadilla';
 
 		this.aboutMeData.title = 'A bit about me';
 		this.aboutMeData.descriptions = [`
