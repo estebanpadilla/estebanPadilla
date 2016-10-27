@@ -1,10 +1,9 @@
 h2 {
 	color: #eef8fd;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
     font-style: italic;
-    margin-bottom: 20px;
 }
 
 a {
@@ -17,11 +16,12 @@ h2:hover {
 
 .bgColor {
 	background-color: #152639;
+	height: 100px;
 }
 
 .textHorizontalSpace {
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 .centerOnDiv{

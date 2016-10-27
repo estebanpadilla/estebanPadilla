@@ -10,13 +10,15 @@ import { User } from '../../models/user';
 export class ContactComponent implements OnInit {
 	
 	user:User;
+	image:string;
 	title:string;
 	description:string;
 
 	constructor(private siteDataService:SiteDataService) {}
 
 	ngOnInit() {
-		this.user = this.siteDataService.user;	
+		this.user = this.siteDataService.user;
+		this.image = '../assets/images/emailMeIcon.svg'	
 		this.title = 'Interested in hiring with me?';
 		this.description = `I have to tell you that I take my work very seriously 
 							and I am always aiming for perfection and quality,  

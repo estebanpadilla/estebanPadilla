@@ -1,13 +1,21 @@
 
-	<div class="row textHorizontalSpace">
-		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 bgColor1">
-			<h2>{{ title }}</h2>
-			<p>{{ description }}</p>
-		</div>
-		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 bgColor2">
-			<h2>My contact information</h2>
-			<p>{{ user.location }}</p>
-			<p><a href="mailto:{{ user.email }}">{{ user.email }}</a></p>
-			<p>{{ user.phone }}</p>
-		</div>
+<div class="row textHorizontalSpace">
+	
+	<a href="mailto:{{ user.email }}">
+	<div class="emailMe">
+		<div class="emailMeImg"><img [src]="image"></div>
+		<p class="emailMeText">Email me!</p>
 	</div>
+	</a>
+
+	<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 bgColor1">
+		<h2>{{ title }}</h2>
+		<p>{{ description }}</p>
+	</div>
+	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 bgColor2">
+		<h2>My contact information</h2>
+		<p>{{ user.location }}</p>
+		<p><a href="mailto:{{ user.email }}">{{ user.email }}</a></p>
+		<p>{{ user.phone }}</p>
+	</div>
+</div>

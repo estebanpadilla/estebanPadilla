@@ -9,3 +9,24 @@ header {
 footer {
 	height: 0px;
 }
+
+.email {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;;
+    border-width: 25px;
+}
+
+#mycontainer {
+  position: relative;
+  background-color: red;
+}
+.div {
+  position: fixed;
+    top: 1em;
+    right: 1em;
+	width: 100px;
+	height: 100px;
+}

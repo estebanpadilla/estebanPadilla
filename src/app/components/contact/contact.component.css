@@ -76,3 +76,38 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+
+.emailMe {
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+	width: 64px;
+	height: 64px;
+	background-color:#152639;
+	border-radius: 32px;
+	border: 3px solid #eef8fd;
+	z-index: 1000;
+  	-webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
+	-moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
+	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
+}
+
+.emailMe:hover {
+	border: 3px solid #00adef;
+}
+
+.emailMeImg img {	
+	margin-left: 6px;
+  	height: 42px;
+  	width:auto;
+}
+
+.emailMeText {
+	color:#eef8fd;
+	font-size:9px;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	z-index: 1001;
+	text-align: center;
+}

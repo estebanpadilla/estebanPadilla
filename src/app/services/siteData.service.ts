@@ -43,7 +43,7 @@ export class SiteDataService {
 		knowledge covers a whole lot more.`,
 		
 		`For the past years my focus has being native iOS development always 
-		keeping update on new technologies like Angular 2, wich I love it. `,
+		keeping update on new technologies like Angular 2, which I love it. `,
 
 		`What I pride myself the most is that not matter how hard the task 
 		I will always look for a solution to get the job done on time. 
