@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SiteDataService } from '../../services/siteData.service';
+import { DataService } from '../../services/data.service';
 import { User } from '../../models/user';
 
 @Component({
@@ -9,15 +9,16 @@ import { User } from '../../models/user';
 })
 export class ContactComponent implements OnInit {
 	
-	user:User;
+	user:User = new User();
 	image:string;
 	title:string;
 	description:string;
 
-	constructor(private siteDataService:SiteDataService) {}
+	constructor(private dataService:DataService) {}
 
 	ngOnInit() {
-		this.user = this.siteDataService.user;
+		// this.user = this.siteDataService.user;
+		this.dataService.fetchUser().subscribe((data) => this.user = data);
 		this.image = '../assets/images/emailMeIcon.svg'	
 		this.title = 'Interested in hiring with me?';
 		this.description = `I have to tell you that I take my work very seriously 
