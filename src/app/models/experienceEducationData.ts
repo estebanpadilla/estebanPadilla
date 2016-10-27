@@ -8,4 +8,5 @@ export class ExperienceEducationData {
 
 	experienceList:Experience[];
 	educationList:Education[]
+	
 }

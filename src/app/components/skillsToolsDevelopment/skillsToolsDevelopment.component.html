@@ -26,8 +26,8 @@
 			<h3 class="text-left">Skills</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div *ngFor="let skill of skillsToolsDevelopmentData.skills">
-						<p class="p_link" (click)="showData(content, skill)">{{ skill.title}}</p>
+					<div *ngFor="let skill of skills">
+						<p class="p_link" (click)="showData(content, skill)">{{ skill.title }}</p>
 					</div>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 			<h3 class="text-left">Tools</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div *ngFor="let tool of skillsToolsDevelopmentData.tools">
+					<div *ngFor="let tool of tools">
 						<p class="p_link" (click)="showData(content, tool)">{{ tool.title}}</p>
 					</div>
 				</div>
@@ -46,8 +46,8 @@
 			<h3 class="text-left">Development</h3>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div *ngFor="let development of skillsToolsDevelopmentData.development">
-						<p class="p_link" (click)="showData(content, development)">{{ development.title}}</p>
+					<div *ngFor="let dev of development">
+						<p class="p_link" (click)="showData(content, dev)">{{ dev.title }}</p>
 					</div>
 				</div>
 			</div>

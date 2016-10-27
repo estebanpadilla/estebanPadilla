@@ -1,0 +1,21 @@
+{
+    "title":"Do you need a reliable hand with your development project?",
+    "descriptions": 
+    [
+        "I can pick up the overflow to help deliver your project on time.",
+        "I pride myself in communication and initiative to ensure my involvement is always seamless, flexible, cost-effective, and the highest of quality."
+    ],
+    "image":"./assets/images/developerDesk.png",
+    "listTitle":"Here’s how I can help you:",
+    "list":
+    [
+        "I can help you on all the development stages of your iOS project.",
+		"I’m comfortable working both behind the scenes and in client-facing roles.",
+		"I can adapt to your workflow and tools (or even introduce something new).",
+		"I have a design education and an excellent eye to catch the good stuff.",
+		"I focus my developement on the UI/UX best practices, and common sense.",
+		"Are you planning to create a game with Unity 3D, I can help you with that too.",
+		"My billing time is flexible and my rates are competitive.",
+		"Looking for a fixed price? No problem!"
+    ]
+}

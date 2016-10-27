@@ -1,0 +1,18 @@
+[
+    { 	
+        "institution":"CTPI José Figueres Ferrer", 
+        "achievement":"Bachiller y Técnico medio en Electrotecnia."
+    },
+    { 	
+        "institution":"Universidad Veritas", 
+        "achievement":"Animación Digital (Not completed)"
+    },
+    { 	
+        "institution":"Univerdiad Cenfotec", 
+        "achievement":"Diplomado en Desarrollo de Software"
+    },
+    { 	
+        "institution":"Big Nerd Ranch", 
+        "achievement":"iOS Development Training"
+    }
+]

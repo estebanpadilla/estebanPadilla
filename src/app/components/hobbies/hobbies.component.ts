@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { Hobbie } from '../../models/hobbie';
-import { SiteDataService } from '../../services/siteData.service';
+import { DataService } from '../../services/data.service';
 
 @Component({
 	selector: 'hobbies',
@@ -14,17 +14,18 @@ export class HobbiesComponent  {
 	closeResult: string;
 	title:string;
 	subtitle:string;
+
 	selectedHobbie:Hobbie;
-	hobbies:Hobbie[];
+	hobbies:Hobbie[] = [];
 
 	constructor( private modalService: NgbModal,
-				 private siteDataService:SiteDataService ) {
-		this.title = 'Hobbie and interests';	
-		this.subtitle = 'Here is a list of all thing that I am obsessed about, please do not judge me for some of the things I like.';
+				 private dataService:DataService ) {
 	}
 
 	ngOnInit() {
-		this.hobbies = this.siteDataService.hobbies;
+		this.dataService.fetchHobbies().subscribe((data) => this.hobbies = data);
+		this.title = 'Hobbie and interests';	
+		this.subtitle = 'Here is a list of all thing that I am obsessed about, please do not judge me for some of the things I like.';
 	}
 
 	showHobbie(content, hobbie) {

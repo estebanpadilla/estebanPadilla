@@ -1,0 +1,50 @@
+[
+    {
+        "title":"Xcode", 
+        "descriptions":["I use xcode for all my iOS development I know that are other tools out there but at this moment I not interested."],
+        "image":"../assets/images/appleInc.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Paintcode", 
+        "descriptions":["On my last project I used PaintCode to create all the icons for buttons on my iOS app Biin. There a whole bunch of reason why to do this way the most important for me is the control I have over the color and size without loosing quality on the final result."],
+        "image":"../assets/images/paintCode.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	"title":"Illustrator", 
+        "descriptions":["Illustrator is a tool that be adapated to many working scenarios, in my case, I used it to create icons, logos, flow charts, info-graphics, low and high level mockups and any graphic asset I need for a proyect. "],
+        "image":"../assets/images/illustrator.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Photoshop", 
+        "descriptions":["I use photoshop for many different purposes like any graphic designer but mostly to enhance and manipulate images to improve their overall appearance. Its an excellent tool that makes photo editing easy and efficient."],
+        "image":"../assets/images/photoshop.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Sketchapp", 
+        "descriptions":["SketchApp is an excellent tool to create and show off your UI design, it has many features that allows you to work fast and easy."],
+        "image":"../assets/images/sketchapp.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Git", 
+        "descriptions":["It is where I keep safe all my important project, just like this site."],
+        "image":"../assets/images/github.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Jira", 
+        "descriptions":["Manage a team can be difficult if you do not use the right tools, I think Jira has all the necessary elements to help a team acomplish goals."],
+        "image":"../assets/images/jira.png",
+        "listTitle":"",
+        "list":[]
+    }
+]

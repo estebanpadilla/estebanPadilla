@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Data } from '../../models/data';
-import { SiteDataService } from '../../services/siteData.service';
+import { DataService } from '../../services/data.service';
 
 @Component({
 	selector: 'whatCanIDo',
@@ -10,11 +10,11 @@ import { SiteDataService } from '../../services/siteData.service';
 
 export class WhatCanIDoComponent  {
 
-	data:Data;// = new Data();
+	data:Data = new Data();
 
-	constructor( private siteDataService:SiteDataService ) { }
+	constructor( private dataService:DataService ) { }
 
 	ngOnInit(){
-		this.data = this.siteDataService.whatCanIDoData;
+		this.dataService.fetchWhatCanIDo().subscribe((data) => this.data = data);
 	}
 }

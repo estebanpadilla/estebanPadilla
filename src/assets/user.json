@@ -1,0 +1,12 @@
+{
+    "name":"Esteban Padilla",
+    "description":"Husband, father and crazy about programming,  games and design.",
+    "location":"Cartago, Costa Rica",
+    "email":"ep@estebanpadilla.com",
+    "phone":"(506) 8706-6660",
+    "avatar":"../assets/images/avatar.svg",
+    "github":"../assets/images/githubLogo.svg",
+    "githubUrl":"https://github.com/estebanpadilla",
+    "twitter":"./assets/images/twitterLogo.svg",
+    "twitterUrl":"https://twitter.com/_estebanpadilla"
+}

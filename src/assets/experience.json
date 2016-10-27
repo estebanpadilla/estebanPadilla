@@ -1,0 +1,49 @@
+[
+    { 	
+        "company":"Biin (startup)", 
+        "roll":"iOS Developer, Designer, etc..", 
+        "period":"May 2014 - June 2016",
+        "image":"./assets/images/appleInc.png",
+        "rollDescription":"During my work at HP I got into the entrepreneurial movement and I decided to give a try to myself. We saw that many small commerces did not have access to marketing their products and services on mobiles devices and we thought that it would a great idea to bring a platform for them,  where they can easily manage their content, received fast feedback and reward their vip clients using the latest microlocalization technologies.",
+        "rollResponsabilities":["Design and develop the iOS application.", 
+                            "Design the web platform to manage all app resources.",
+                            "Follow the best coding practices and standards.",
+                            "Manage the development team.",
+                            "Help the development team to maintain the happiness level and well being.",
+                            "Manage startup resources to maximise the proyect development.",
+                            "Communicate product progress to investor and early adopters.",
+                            "Design product features and overall vision.",
+                            "Communicate with clients to validate the product vision.",
+                            "Lead the recruiting process to find the best talent available."
+                            ]
+    }, 
+    { 	
+        "company":"Hewllet Packard Costa Rica", 
+        "roll":"Software engineer", 
+        "period":"Nov 2013 - April 2014",
+        "image":"./assets/images/developer.png",
+        "rollDescription":"Working for HP is totally a differente history. I decided to apply for that job hoping to continue and improve my developement career. They had a new software development branch that was working directly with the HP Labs team in Palo Alto. The projects they were doing were really exiting and cool and that really caught my atention. I am not allow to talk about any of the projects I worked there due to confidentiality.",
+        "rollResponsabilities":["Worked together with the development team to deliver highend products for big clients.",
+                                "Keep up with the development pace and constantly deliver excellent results.",
+                                "Maintain high coding standards as specified by the company."]
+    },
+    { 	
+        "company":"Fair Play Labs", 
+        "roll":"Game Developer", 
+        "period":"Dec 2011 - Nov 2013",
+        "image":"./assets/images/gameDeveloper.png",
+        "rollDescription":"Working on Fair Play Labs was one of the most happiest experiences I ever had and not only because the work enviroment was great but also because the kind of work I was doing, video games. Create a game has a lot of challenges and that is what I enjoy about that. Looking back to the proyects I did there I do not remember one that I did not like. I did most of the work on Unity 3D but also I developed a proyect with the Marmalade SDK.",
+        "rollResponsabilities":["Follow the Game Design Document to develop the product.", 
+                            "Collaborate with team members to meet the proyect deadlines.",
+                            "Follow proyect manager instructions and guides lines.",
+                            "Follow the coding best practices.",
+                            "Follow the company coding standards.",
+                            "Give time base estimates for tasks to schedule releases.",
+                            "Communicate with team members to keep track of the proyect progress.",
+                            "Deliver and schedule beta releases to clients for reviewing purposes.",
+                            "Maintain proyect repositories according to the company best practices and standars.",
+                            "Communicate proyect progress to team managers constantly.",
+                            "Manage proyect stories and tasks for agiles development.",
+                            "Publish product on the apple store."]
+    }
+]

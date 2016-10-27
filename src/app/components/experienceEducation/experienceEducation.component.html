@@ -16,7 +16,6 @@
   	<div class="modal-footer">
     	<button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
   	</div>
-  	
 </template>
 
 <div class="bgColor">
@@ -24,26 +23,26 @@
 	<br>
 	<div class="row textHorizontalSpace">
 		<div class="col-sm-6 col-md-6 col-lg-6">
-			<h2 class="text-left">{{ experienceEducationData.experienceTitle }}</h2>
+			<h2 class="text-left">{{ experienceTitle }}</h2>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div *ngFor="let experience of experienceEducationData.experienceList">
+					<div *ngFor="let exp of experience">
 						<br>
-						<p class="companyText">{{ experience.company }}</p>
-						<p class="periodText">{{ experience.period }}</p>
-						<p class="rollText" (click)="showData(content, experience)">{{ experience.roll }}</p>
+						<p class="companyText">{{ exp.company }}</p>
+						<p class="periodText">{{ exp.period }}</p>
+						<p class="rollText" (click)="showData(content, exp)">{{ exp.roll }}</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-6">
-			<h2 class="text-left">{{ experienceEducationData.educationTitle }}</h2>
+			<h2 class="text-left">{{ educationTitle }}</h2>
 			<div class="row text-left">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div *ngFor="let education of experienceEducationData.educationList">
+					<div *ngFor="let edu of education">
 						<br>
-						<p class="companyText">{{ education.institution }}</p>
-						<p class="achievement">{{ education.achievement }}</p>
+						<p class="companyText">{{ edu.institution }}</p>
+						<p class="achievement">{{ edu.achievement }}</p>
 					</div>
 				</div>
 			</div>

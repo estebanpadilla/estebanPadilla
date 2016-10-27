@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { User } from '../../models/user';
 import { SiteDataService } from '../../services/siteData.service';
+import { DataService } from '../../services/data.service';
 
 @Component({
 	selector: 'estebanpadilla',
@@ -10,24 +11,15 @@ import { SiteDataService } from '../../services/siteData.service';
 
 export class EstebanPadillaComponent {
 
-	user:User;// = new User();
+	user:User = new User();
 	updateTitle:string;
 	lastUpdate:string;
 
-	constructor(private siteDataService:SiteDataService){
-		// this.user.name = 'Esteban Padilla';
-		// this.user.description = 'Husband, father and crazy about programming,  games and design.';
-		// this.user.location = 'Cartago, Costa Rica';
-		// this.user.email = 'ep@estebanpadilla.com';
-		// this.user.phone = '(506) 8706-6660';
-		// this.user.avatar = '../app/estebanPadilla/avatar.png';
-	}
+	constructor(private dataService:DataService ) { }
 
 	ngOnInit() {
-		this.user = this.siteDataService.user;
+		this.dataService.fetchUser().subscribe(((data) => this.user = data));
 		this.updateTitle = 'Updated';
 		this.lastUpdate = 'Oct 2017';
 	}
-
-
 }

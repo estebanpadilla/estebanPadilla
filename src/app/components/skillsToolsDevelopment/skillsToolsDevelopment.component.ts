@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { Data } from '../../models/data';
 import { SkillsToolsDevelopmentData } from '../../models/skillsToolsDevelopmentData';
-import { SiteDataService } from '../../services/siteData.service';
+import { DataService } from '../../services/data.service';
 
 @Component({
 	selector: 'skillsToolsDevelopment',
@@ -12,6 +12,10 @@ import { SiteDataService } from '../../services/siteData.service';
 })
 export class SkillsToolsDevelopmentComponent {
 	
+	skills:Data[] = [];
+	tools:Data[] = [];
+	development:Data[] = [];
+
 	title:string;
 	description:string;
 	closeResult: string;
@@ -19,12 +23,16 @@ export class SkillsToolsDevelopmentComponent {
 	skillsToolsDevelopmentData;
 
 	constructor( private modalService: NgbModal,
-				 private siteDataService:SiteDataService ) {
+				 private dataService:DataService ) {
 
 	}
 
 	ngOnInit() {
-		this.skillsToolsDevelopmentData = this.siteDataService.skillsToolsDevelopmentData;
+		//this.skillsToolsDevelopmentData = this.siteDataService.skillsToolsDevelopmentData;
+		this.dataService.fectchSkills().subscribe((data) => this.skills = data);
+		this.dataService.fectchTools().subscribe((data) => this.tools = data);
+		this.dataService.fetchDevelopment().subscribe((data) => this.development = data);
+		
 		this.title = 'I am good in...';
 		this.description = 'Here a list of different things and fields that I beleive I am good doing.';
 	}

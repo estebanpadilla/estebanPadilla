@@ -1,0 +1,107 @@
+[ 	
+    { 	"id":1, 
+        "name":"Music", 		
+        "image":"./assets/images/music.png", 
+        "imageModal":"./assets/images/musicModal.png", 
+        "description":"Music is a big part of my life and I feel very passionate for certain styles and mostly the Southern-Rock. Every now and then you find something that really suits you and I can not explain what it is or how that happens. The thing about Southern-Rock is the combination of different styles and cultures that makes think about the posibities  when people get toguether to create something new."
+    },
+    { 
+        "id":2, 
+        "name":"Games", 		
+        "image":"./assets/images/games.png", 
+        "imageModal":"./assets/images/gamesModal.png", 
+        "description":"The first video game that I ever play was Asteroids in an Atari 2600 that my oldest brother brought home. I remember it was around 9 pm and across the wall I heard a sound that I never heard before it was the ships laser shooting sound I knew that it was something new and cool. The years when by and I ended up studying animation, programing and working on a game development company."
+    },
+    { 
+        "id":3, 
+        "name":"Reading", 	
+        "image":"./assets/images/reading.png", 
+        "imageModal":"./assets/images/readingModal.png", 
+        "description":"I just to pickup a book on the library and spend hours sitting in a couch reading it. Now a days I do not have that privilege, family, work, study and other hobbies consume most of my time but I do find myself reading a lot of blogs, news and other things that are not, precisely reading a book."
+    },
+    { 
+        "id":4, 
+        "name":"Apple Inc", 	
+        "image":"./assets/images/apple.png", 
+        "imageModal":"./assets/images/appleModal.png", 
+        "description":"I feel very emotionally attached to all Apple products, their design and quality is something that I admired and inspires me a lot, in fact the love to my Macbook Pro and iPhone lead my path to become an iOS developer, do not get me wrong, I also like Android."
+    },
+    { 
+        "id":5, 
+        "name":"Guitar", 		
+        "image":"./assets/images/guitar.png", 
+        "imageModal":"./assets/images/guitarModal.png", 
+        "description":"When I was about 14 years old I saw Jimy Page playing his Les Paul the sound and overall the music really woke up something in me a few decades after I am still learning how to play the guitar, I guess there are some things you never stop learning."
+    },
+    { 
+        "id":6, 
+        "name":"Movies", 		
+        "image":"./assets/images/movies.png", 
+        "imageModal":"./assets/images/moviesModal.png", 
+        "description":"I enjoy watching movies that makes me think even if it is a comedy, drama o whatever, it needs to fullfill that part of me to have me sitting for two hours and watch it."
+    },
+    { 
+        "id":7, 
+        "name":"Coffee", 		
+        "image":"./assets/images/coffee.png", 
+        "imageModal":"./assets/images/coffeeModal.png", 
+        "description":"Growing up on a country with such a long coffee tradition is hard not to be a coffee addict and lover. I really enjoy having a cup of coffee when a wake up and during the afternoon."
+    },
+    { 
+        "id":8, 
+        "name":"Scketching", 	
+        "image":"./assets/images/sketching.png", 
+        "imageModal":"./assets/images/sketchingModal.png", 
+        "description":"When I am working on a design I feel the best and faster way to communicate your ideas is by drawing sketchs on a piece of paper. "
+    },
+    { 
+        "id":8, 
+        "name":"TV", 	
+        "image":"./assets/images/tv.png", 
+        "imageModal":"./assets/images/tvModal.png", 
+        "description":"I usually do not watch a lot of tv but sometimes I take a look a Netflix and find something good. We do not have a cable subscription or the local channels on our tv and just because there is nothing to watch there."
+    },
+    { 
+        "id":8, 
+        "name":"Cooking", 	
+        "image":"./assets/images/cook.png", 
+        "imageModal":"./assets/images/cookModal.png", 
+        "description":"I like to cook a lot and I am not a chef and anything like it, I just like to prepare something good for my family to enjoy."
+    },
+    { 
+        "id":8, 
+        "name":"Soccer", 	
+        "image":"./assets/images/soccer.png", 
+        "imageModal":"./assets/images/soccerModal.png", 
+        "description":"I enjoy a lot playing soccer with my friends its a shame that it does not happen very often, people get too involve with their lives and forget about  leaving time for themselves, I guess it is just the way it is."
+    },
+    { 
+        "id":8, 
+        "name":"Swiming", 	
+        "image":"./assets/images/swiming.png", 
+        "imageModal":"./assets/images/swimingModal.png", 
+        "description":"Exercise is always good and I grow up near a lake and I always had time to swim when I was a kit now I am leaving close to a comunity pool and I am thinking to go back to my old customs."
+    },
+    { 
+        "id":8, 
+        "name":"Camping", 	
+        "image":"./assets/images/camping.png", 
+        "imageModal":"./assets/images/campingModal.png", 
+        "description":"I love nature and everytime I can I escape to spend some time on the rain forrest I do it, who does not?"
+    },
+    { 
+        "id":8, 
+        "name":"Cat", 	
+        "image":"./assets/images/cat.png", 
+        "imageModal":"./assets/images/catModal.png", 
+        "description":"When I was a kid I found a cat on the local river, I gues someone try to get rid of him, I remember having good times with him. Last year we adopted a cat that a friends of ours could not keep, her name is Lola and now we do not our lives without a cat living with us."
+    },
+    { 
+        "id":8, 
+        "name":"Bike", 	
+        "image":"./assets/images/bike.png", 
+        "imageModal":"./assets/images/bikeModal.png", 
+        "description":"As part of my adventures sometimes I take my bike for a ride. There is something about the feeling of freedom that riding a bike gives me, I do not expect you to understand."
+    }
+
+]

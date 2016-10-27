@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { ExperienceEducationData } from '../../models/experienceEducationData'
 import { Experience } from '../../models/experience';
-import { SiteDataService } from '../../services/siteData.service';
+import { Education } from '../../models/education';
+import { DataService } from '../../services/data.service';
 
 @Component({
 	selector: 'experienceEducation',
@@ -15,15 +16,25 @@ export class ExperienceEducationComponent {
 	closeResult: string;
 	selectedExperience:Experience;
 
-	experienceEducationData:ExperienceEducationData;
+	experience:Experience[] = [];
+	education:Education[] = []
+
+	experienceTitle:string = 'Experience';
+	educationTitle:string = 'Education';
+
+	// experienceEducationData:ExperienceEducationData;
 
 	constructor( private modalService: NgbModal,
-				 private siteDataService:SiteDataService ) {
+				 private dataService:DataService ) {
 
 	}
 
 	ngOnInit() {
-		this.experienceEducationData = this.siteDataService.experienceEducationData;
+		// this.experienceEducationData = this.siteDataService.experienceEducationData;
+		this.experienceTitle = 'Experience';
+		this.educationTitle = 'Education';
+		this.dataService.fetchEducation().subscribe((data) => this.education = data);
+		this.dataService.fetchExperience().subscribe((data) => this.experience = data);
 	}
 
 	showData(content, experience:Experience) {

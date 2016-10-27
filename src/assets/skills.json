@@ -1,0 +1,107 @@
+[
+    {	
+        "title":"Creativity", 
+        "descriptions":["Part of my daily routine is to use my imagination to come up with new ideas to solve problems, create new things, entertain my kids, cook a meal, etc."], 
+        "image":"../assets/images/creativity.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Teamwork", 
+        "descriptions":["Working with other people is not something that everyone is capable to do. When working on a team there are many things to consider but I believe the most importan is the effective comunication, being open to receive and give positive feed back and leaving your ego at the door step."],
+        "image":"../assets/images/teamWork.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Team management", 
+        "descriptions":["Watch others to make sure that everything is ok and they are doing their jobs is complicated, I believe the best approach is to know every member of the team very well and determine their strengths and weaknesses prior to assign tasks, once you know that is easy to delegate and manage a team."],
+        "image":"../assets/images/teamManagement.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Communication", 
+        "descriptions":["More than express my ideas by word, drawing or diagrams, wich I can do very well, I think that communication its a big part of a proyect and having a line open to communicate constantly I beleive is essencial to any thing you want to do when working on a team."],
+        "image":"../assets/images/comunication.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Think Ahead", 
+        "descriptions":["I use a lot of brain power to plan my day and keep problems and accidents from happening, it is what parents do and I usually apply the same tecniques to my work."],
+        "image":"../assets/images/timeManagement.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Ability to Work Under Pressure", 
+        "descriptions":["I know that sometimes projects have constraints which are often outside of control, these might be resource or time constraints, the difficulty of the task or not having insufficient knowledge required to complete the task, or unforeseen changes or problems and I know that effective planning and time-management is not enough to reduce the likelihood of some situations occurring. I beleive that I have enought experience to understand and adapt to this situation quickly."],
+        "image":"../assets/images/timeManagement.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Time Management", 
+        "descriptions":["I like to plan day to maximized my time and get as much things completed as possible, wisdom is knowing what to do next, skill is  knowing how to do it,  and virtue is doing it."],
+        "image":"../assets/images/timeManagement.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {	
+        "title":"Decision Making", 
+        "descriptions":["This is something that you do not learn in school and only life will teach you, make good judgements about what to do in a difficult situation even when the supervisor is not present, as a parent, I am in charge of making responsible desicions every day, hour and minute of my life."],
+        "image":"../assets/images/leadership.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Empathy", 
+        "descriptions":["I tried to always think about how others may feel about things, especially before I say or do things that may affect them also I beleive in people and I do not think you are only worthy on one chance in life, sometimes people needs more than one chance to do the right thing."],
+        "image":"../assets/images/empathy.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Leadership", 
+        "descriptions":["The ability to lead effectively a team is based on a number of key skills, I can mentions some that I think I have and makes me a good leader, trustworthy, reliable, helpfull, listener, proactive."],
+        "image":"../assets/images/leadership.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Quick Learner", 
+        "descriptions":["Almost everything that we do now are new things following the instructions from a tutorial, a cooworker, a site, a book to accomplish our responsibilities or bring to live our ideas."],
+        "image":"../assets/images/fastlearner.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Loyal and Discreet", 
+        "descriptions":["I can be trusted to get the job done, to look after things or keep secrets that are very important to other people. I am also committed and devoted to things or people that mean a lot to me or put their trust on me."],
+        "image":"../assets/images/leadership.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Efficient", 
+        "descriptions":["I am always looking for way to improve my performance when doing tasks in the fastest and simplest ways that they can be done, like is too short to spend to much time in one task."],
+        "image":"../assets/images/fastlearner.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Flexible", 
+        "descriptions":["I can carry out many different responsibilities, sometimes with very little advanced notice, this could make someone feel under presure and stressfull, I look at it this way, it is a new oportunity to prove myself."],
+        "image":"../assets/images/leadership.png",
+        "listTitle":"",
+        "list":[]
+    },
+    {
+        "title":"Detail-oriented", 
+        "descriptions":["I am always on the hunt for details and making a conscious analysis to understand causes instead of just the effects, sometimes I feel that I go to far by trying to have everything well aligned, ui-wise speakling."],
+        "image":"../assets/images/leadership.png",
+        "listTitle":"",
+        "list":[]
+    }
+]

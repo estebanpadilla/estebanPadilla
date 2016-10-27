@@ -20,6 +20,7 @@ import { BelieveComponent } from './components/believe/believe.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 import { SiteDataService } from './services/siteData.service';
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { SiteDataService } from './services/siteData.service';
     HttpModule,
     NgbModule.forRoot()
   ],
-  providers: [ SiteDataService ],
+  providers: [ SiteDataService, DataService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
