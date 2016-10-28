@@ -21,6 +21,7 @@ import { ContactComponent } from './components/contact/contact.component';
 
 import { SiteDataService } from './services/siteData.service';
 import { DataService } from './services/data.service';
+import { HightlightsComponent } from './components/hightlights/hightlights.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DataService } from './services/data.service';
     EpFooterComponent,
     DownloadComponent,
     BelieveComponent,
-    ContactComponent
+    ContactComponent,
+    HightlightsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,52 @@
+h2 {
+	color: #152639;
+	font-size: 40px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    color: #152639;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 25px;
+    margin-top: -15px;
+
+}
+
+p {
+	color: #152639;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+}
+
+img {
+	margin-top: 0px;
+	height:150px;
+ 	max-width: auto;
+    text-align: center;
+}
+
+.bgColor {
+	background-color: #eef8fd;
+}
+
+.textHorizontalSpace {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.hightlightBox {
+    padding: 10px, 10px, 10px, 10px;
+    background-color: red; 
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.line {
+    background-color:#152639;
+    height: 10px;
+}
