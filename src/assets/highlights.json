@@ -1,0 +1,43 @@
+[
+    {
+        "title":"Code",
+        "image":"./assets/images/coding.svg",
+        "descriptionTitle":"Adapt to whatever comes along the way!",
+        "descriptions":
+        [   
+            "Technologies are constantly evolving every day, new ones come out and others die, I beleive the most important skill a developer should have is to be able to adapt and react fast to this ever changing world. Right now I'm focusing on iOS development but I know that it could change at any moment depending on the needs the future brings and I'm completed open to that.",
+            "I would love to say that I am a rock-star coding in Swift, Objective-C, Html, JS, CSS, PHP, Java, SQL, Ruby, C++, C#,  but I'm not. I'm just a developer that right now enjoys making app for iOS."
+        ],
+        "color":"#652c90"
+    },
+    {
+        "title":"Design",
+        "image":"./assets/images/apple.png",
+        "descriptionTitle":"Title Design",
+        "descriptions":
+        [
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+        ],
+        "color":"#ec008b"
+    },
+    {
+        "title":"Agile",
+        "image":"./assets/images/movies.png",
+        "descriptionTitle":"Title Agile",
+        "descriptions":
+        [
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+        ],
+        "color":"#00a79d"
+    },
+    {
+        "title":"Comunication",
+        "image":"./assets/images/coffee.png",
+        "descriptionTitle":"Title Communication",
+        "descriptions":
+        [
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        ],
+        "color":"#ef4036"
+    }
+]

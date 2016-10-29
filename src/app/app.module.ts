@@ -21,7 +21,7 @@ import { ContactComponent } from './components/contact/contact.component';
 
 import { SiteDataService } from './services/siteData.service';
 import { DataService } from './services/data.service';
-import { HightlightsComponent } from './components/hightlights/hightlights.component';
+import { HighlightsComponent } from './components/highlights/highlights.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +39,7 @@ import { HightlightsComponent } from './components/hightlights/hightlights.compo
     DownloadComponent,
     BelieveComponent,
     ContactComponent,
-    HightlightsComponent
+    HighlightsComponent
   ],
   imports: [
     BrowserModule,
