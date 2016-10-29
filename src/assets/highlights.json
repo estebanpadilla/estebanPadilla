@@ -6,37 +6,41 @@
         "descriptions":
         [   
             "Technologies are constantly evolving every day, new ones come out and others die, I beleive the most important skill a developer should have is to be able to adapt and react fast to this ever changing world. Right now I'm focusing on iOS development but I know that it could change at any moment depending on the needs the future brings and I'm completed open to that.",
-            "I would love to say that I am a rock-star coding in Swift, Objective-C, Html, JS, CSS, PHP, Java, SQL, Ruby, C++, C#,  but I'm not. I'm just a developer that right now enjoys making app for iOS."
+            "I would love to say that I am a super mega rock-star coding in Swift, Objective-C, Html, JS, CSS, PHP, Java, SQL, Ruby, C++, C#,  but I'm not. I'm just a developer that right now enjoys making app for iOS."
         ],
         "color":"#652c90"
     },
     {
         "title":"Design",
-        "image":"./assets/images/apple.png",
-        "descriptionTitle":"Title Design",
+        "image":"./assets/images/design.svg",
+        "descriptionTitle":"The right design",
         "descriptions":
         [
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+            "The wheel is already invented so how can I design a better wheel? I would approach this task not by making a new wheel but improving and enhancing the wheel I already have. Maybe by making a lighter, stronger, reusable, cheaper, storable, recyclable, adaptable, a better looking one. A problem could be resolve using designs already proven and patterns that other people have tested.",
+            "I think a good designer has a good eye to analize and detecting the issue and find the right fix. "
         ],
         "color":"#ec008b"
     },
     {
         "title":"Agile",
-        "image":"./assets/images/movies.png",
-        "descriptionTitle":"Title Agile",
+        "image":"./assets/images/agile.svg",
+        "descriptionTitle":"Being agile...",
         "descriptions":
         [
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+            "Being an agile developer means that I can pick up and adapt to a methodology real quick and seamless but I think it goes even further. Every team has it own way to do things based on different methods and practices learn for previous projects so for me means to adapt to the team needs and help accomplish the project goals the fastest way possible.",
+            "So your team uses scrum and have daily meeting to check on the progress and keep track of delevopment in a tool like Jira, and make sprint planning and move prioritized stories from the backlog so yes, I'm used to that and also to receive a document with all the specifications and all the requirements the software will needs and start working.",
+            "So not matter the tendency I do the work always aiming to excel on what I do."
         ],
         "color":"#00a79d"
     },
     {
         "title":"Comunication",
-        "image":"./assets/images/coffee.png",
-        "descriptionTitle":"Title Communication",
+        "image":"./assets/images/communication.svg",
+        "descriptionTitle":"Being part of",
         "descriptions":
         [
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            "Right now there are some tools out that help teams to improve their communications and that is good but I think communication is even more than having a software with chats,  calls,  file sharing, video conferencing, screen sharing and so on, communication is the ability to transmit your ideas and needs at the right moment and knowing that you are part of a scheme that is functioning to accomplish a specific goal.",
+            "Communication is knowing that you are not an isolated person working on a task that you are part of a body that needs all it's parts at all time."
         ],
         "color":"#ef4036"
     }
