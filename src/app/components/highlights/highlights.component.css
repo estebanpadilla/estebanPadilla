@@ -1,8 +1,10 @@
 h2 {
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
+	margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 h3 {
@@ -36,7 +38,12 @@ img {
 }
 
 .bgColor {
+	background-color: #ee3344;
+}
+
+.bgColor2 {
 	background-color: #2c3a46;
+	padding-bottom: 3px;
 }
 
 .textHorizontalSpace {
@@ -61,7 +68,8 @@ img {
     text-align: center;
 	margin-right: -15px;
     margin-left: -15px;
-	margin-bottom: -7px;
+	margin-bottom: -9px;
+	margin-top: 2px;
 	border-right-style: solid;
 	border-right-color: #2c3a46;
 }

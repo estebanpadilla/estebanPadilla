@@ -23,7 +23,7 @@ export class HighlightsComponent implements OnInit {
                       this.selectedHighlight = this.highlights[0];
                     });
 
-    this.title = 'My highlights';  
+    this.title = 'Highlights';  
   }
 
   selectHighlight(highlight:Highlight){
