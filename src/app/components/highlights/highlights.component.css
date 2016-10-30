@@ -44,6 +44,12 @@ img {
 	margin-right: 30px;
 }
 
+.textHorizontalSpace2 {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
 .line {
     background-color:#152639;
     height:5px;
@@ -53,8 +59,11 @@ img {
 .highlightStyle {
 	cursor: pointer;
     text-align: center;
-	margin-right: -10px;
-    margin-left: -10px;
+	margin-right: -15px;
+    margin-left: -15px;
+	margin-bottom: -7px;
+	border-right-style: solid;
+	border-right-color: #2c3a46;
 }
 
 .removeTopAndBottonMarging {
