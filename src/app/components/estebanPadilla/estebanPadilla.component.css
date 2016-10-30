@@ -1,42 +1,43 @@
-h1 {
+.pTitle {
 	color: white;
 	font-size: 60px;
 	font-weight: 900;
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Lato', sans-serif;
 	height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: auto;
     text-align: center;
-    letter-spacing: 2px;
-}
-
-.lineHeight h1 {
-    line-height:-5px;
+    line-height:50px;
 }
 
 p {
-	color: #ffdd17;
+	color: #ffeead;
 	font-size: 35px;
 	font-weight: 400;
-	font-style: italic;
 	font-family: 'Bangers', cursive;
 	height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
     margin-top: 0px;
-    line-height:40px;
+    line-height:35px;
     text-align: center;
+}
+
+.p2 {
+	color: #820000;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: italic;
+    font-family: 'Lato', sans-serif;
+	height: 100%;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 17px;
+
 }
 
 img {
 	height: 300px;
     width: auto;
-    justify-content: center;
-    flex-direction: column;
+
 }
 
 .bgColor {
@@ -48,20 +49,15 @@ img {
 }
 
 .textHorizontalSpace {
-	margin-right: 0px;
-	margin-left: 0px;
-	display: flex;
-	flex-wrap: wrap;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .displayOptions {
-	height: inherit;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
 }
-
 
 .lastUpdateBox{
     background-color:#2c3a46;
