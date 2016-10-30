@@ -1,25 +1,25 @@
 .p1 {
 	color: #404040;
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 400;
-    font-family: 'Droid Sans Mono', monospace;
+    font-family: 'Ranga', cursive;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 15%;
     margin-bottom: 15%;
-    text-align: left;
+    text-align: center;
 	height: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    line-height:30px;
+    line-height:45px;
 }
 
 .p2 {
 	color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Carter One', cursive;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 15%;
@@ -35,10 +35,10 @@
 	height: inherit;
 	background: repeating-linear-gradient(
 	  135deg,
-	  #FDD90B,
-	  #FDD90B 10px,
-	  #ffdb27 10px,
-	  #ffdb27 20px
+	  #fcb72d,
+	  #fcb72d 10px,
+	  #f4b23d 10px,
+	  #f4b23d 20px
 	);
 }
 
@@ -47,10 +47,10 @@
 	height: inherit;
 	background: repeating-linear-gradient(
 	  45deg,
-	  #ed572f,
-	  #ed572f 10px,
-	  #f05a28 10px,
-	  #f05a28 20px
+	  #ee3344,
+	  #ee3344 10px,
+	  #eb2c32 10px,
+	  #eb2c32 20px
 	);
 }
 

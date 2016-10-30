@@ -34,7 +34,7 @@ button {
 }
 
 .bgColor {
-	background-color: #465EAA;
+	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {
@@ -44,14 +44,14 @@ button {
 
 .hobbie img {
 	cursor: pointer;	
-	border: 3px solid #404041;
+	border: 3px solid #2c3a46;
   	max-height:90px;
   	width:auto;
   	border-radius: 45px;
 }
 
 .hobbieModal img {
-	border: 3px solid #404041;
+	border: 3px solid #2c3a46;
   	max-height:90px;
   	width:auto;
   	border-radius: 45px;
@@ -66,12 +66,12 @@ button {
 }
 
 .h2_Modal {
-	color: #404040;
+	color: #2c3a46;
 	margin-top: 5px;
 }
 
 .p_modal {
-	color:#404040;
+	color:#2c3a46;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;

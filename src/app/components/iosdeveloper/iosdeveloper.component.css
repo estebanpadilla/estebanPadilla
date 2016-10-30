@@ -6,7 +6,7 @@ h2 {
 }
 
 .h2_light {
-	color: #00adef;
+	color: #ee3344;
 	font-size: 40px;
 	font-weight: 300;
     font-family: 'Lato', sans-serif;
@@ -46,7 +46,7 @@ img {
 }
 
 .bgColor {
-	background-color: #152639;
+	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {
@@ -55,7 +55,7 @@ img {
 }
 
 .hobbie img {	
-	border: 6px solid #00adef;
+	border: 6px solid #ee3344;
   	max-height:160px;
   	width:auto;
   	border-radius: 80px;
@@ -68,13 +68,13 @@ img {
   	top: 20px;
   	width: 150px;
   	height: 50px;
-	border-color: transparent #00adef transparent transparent;
+	border-color: transparent #ee3344 transparent transparent;
   	border-style: solid;
   	border-width: 25px;
 }
 
 .hireBoxTitle {
-	color: #152639;
+	color: #2c3a46;
 	font-size: 16px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
@@ -87,7 +87,7 @@ img {
 }
 
 .hireBoxSubTitle {
-	color: #152639;
+	color: #2c3a46;
 	font-size: 16px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
@@ -99,13 +99,13 @@ img {
 
 
 .contactBox{
-	background-color: #00adef;
+	background-color: #ee3344;
   	position:relative;
   	float: left;
   	top: 20px;
   	width: 220px;
   	height: 50px;
-	border-color: transparent #152639 transparent transparent;
+	border-color: transparent #2c3a46 transparent transparent;
   	border-style: solid;
   	border-width: 25px;
 }

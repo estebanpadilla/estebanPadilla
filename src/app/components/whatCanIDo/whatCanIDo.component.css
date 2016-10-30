@@ -1,13 +1,13 @@
 h2 {
-	color: #152639;
+	color: #2c3a46;
 	font-size: 35px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 
 h3 {
-	color: #152639;
-	font-size: 20px;
+	color: #2c3a46;
+	font-size: 25px;
 	font-weight: 700;
     font-family: 'Lato', sans-serif;
     margin-top: 40px;
@@ -15,21 +15,21 @@ h3 {
 
 
 p {
-	color: #152639;
+	color: #2c3a46;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 }
 
 li {
-	color: #152639;
+	color: #2c3a46;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;	
 }
 
 .bgColor {
-	background-color: #eef8fd;
+	background-color: white;
 }
 
 .textHorizontalSpace {

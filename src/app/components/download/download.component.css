@@ -1,5 +1,5 @@
 h2 {
-	color: #eef8fd;
+	color: white;
 	font-size: 16px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
@@ -11,11 +11,11 @@ a {
 }
 
 h2:hover {
-	color:#FFDD17;
+	color:#ee3344;
 }
 
 .bgColor {
-	background-color: #152639;
+	background-color: #2c3a46;
 	height: 100px;
 }
 

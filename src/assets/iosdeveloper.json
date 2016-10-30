@@ -1,10 +1,10 @@
 {
     "title":"Need and iOS Developer?",
 	"description":"I am passionate iOS Developer with years of experience in building apps and games for iPhone and iPad, I love new technologies and I am always looking for interesting and challenging projects, so if you are looking for someone to help you develop the app or games of your dreams do not hesitate to contact me, I would love to work with you.",
-	"image":"./assets/images/iosDevelopmentImg.svg",
+	"image":"./assets/images/iosDevelopmentIcon.svg",
 	"titleIOS":"App Development",
 	"descriptionIOS":"You have an amazing app idea and you are ready to make come true. One important question that always comes up is what is the right technology to choose? The answer is very simple, if the user experience on your app is very important you should develop your app with native technolgies because you want your app to have all the chances to excel. I have many years of experience in application development for various platforms. Currently I’m specialized in native iOS development.",
-	"imageIOS":"./assets/images/iosDevelopmentIcon.svg",
+	"imageIOS":"./assets/images/appDevelopmentIcon.svg",
 	"iosText1":"You have an amazing app idea and you are ready to make come true, but you are wondering.",
 	"iosText2":"What is the best technology to choose?",
 	"iosText3":"That is a very important question that always comes up and the answer depends on the user experience that you would like your app to have. Obviously the goal is to make a great app and only natives technolgies would give you all the resources to achieve that and enabling it to have all the chances to excel. I have many years of experience in application development and I have seen software trends to come and go but nothing has come out that would replace native development.",

@@ -1,5 +1,5 @@
 h1 {
-	color: #465EAA;
+	color: #2c3a46;
 	font-size: 35px;
 	font-weight: 900;
 	font-family: 'Lato', sans-serif;
@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-	color: #404040;
+	color: #2c3a46;
 	font-size: 20px;
 	font-weight: 700;
     font-family: 'Lato', sans-serif;
@@ -55,7 +55,7 @@ span {
 }
 
 .periodTextModal{
-	color: #404040;
+	color: #2c3a46;
 	font-size: 15px;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
@@ -86,7 +86,7 @@ span {
 }
 
 .bgColor {
-	background-color: #152639;
+	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {
@@ -95,7 +95,7 @@ span {
 }
 
 .hobbieModal img {
-	border: 3px solid #404041;
+	border: 3px solid #2c3a46;
   	max-height:90px;
   	width:auto;
   	border-radius: 45px;
@@ -110,12 +110,12 @@ span {
 }
 
 .h2_Modal {
-	color: #404040;
+	color: #2c3a46;
 	margin-top: -10px;
 }
 
 .p_modal {
-	color:#404040;
+	color:#2c3a46;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
@@ -123,7 +123,7 @@ span {
 }
 
 li {
-	color:#404040;
+	color:#2c3a46;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;

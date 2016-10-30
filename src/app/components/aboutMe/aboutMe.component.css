@@ -1,12 +1,12 @@
 h2 {
-	color: #152639;
-	font-size: 6vmin;
+	color: white;
+	font-size: 40px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 
 p {
-	color: #152639;
+	color: white;
 	font-size: 18px;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
@@ -14,7 +14,7 @@ p {
 }
 
 .bgColor {
-	background-color: #eef8fd;
+	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {

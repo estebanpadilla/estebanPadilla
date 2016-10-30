@@ -32,7 +32,13 @@ a:hover {
 }
 
 .bgColor1 {
-	background-color: #652c90;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #ee3344,
+	  #ee3344 10px,
+	  #eb2c32 10px,
+	  #eb2c32 20px
+	);
 	text-align: center;
 	height: inherit;
     display: flex;
@@ -48,10 +54,10 @@ a:hover {
 	
 	background: repeating-linear-gradient(
 	  135deg,
-	  #815da8,
-	  #815da8 10px,
-	  #7e59a5 10px,
-	  #7e59a5 20px
+	  #ee3344,
+	  #ee3344 10px,
+	  #eb2c32 10px,
+	  #eb2c32 20px
 	);
 
 	text-align: center;
@@ -79,35 +85,31 @@ a:hover {
 
 .emailMe {
 	position: fixed;
-	right: 2%;
+	right: 0%;
 	bottom: 2%;
-	width: 64px;
-	height: 64px;
-	background-color:#152639;
-	border-radius: 32px;
-	border: 3px solid #eef8fd;
+	width: 90px;
+	height: 50px;
+	background-color:#ffdd17;
 	z-index: 1000;
-  	-webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
-	-moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
-	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.31);
-}
-
-.emailMe:hover {
-	border: 3px solid #ffdd17;
+  	-webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
 }
 
 .emailMeImg img {	
-	margin-left: 6px;
-  	height: 42px;
+	margin-left: 14px;
+	margin-top: -9px;
+  	height: 55px;
   	width:auto;
 }
 
 .emailMeText {
-	color:#ffdd17;
-	font-size:10px;
+	color:#2c3a46;
+	font-size:15px;
 	font-weight: 900;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
 	z-index: 1001;
 	text-align: center;
+	margin-top: -19px;
 }

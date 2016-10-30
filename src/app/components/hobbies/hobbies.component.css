@@ -1,12 +1,12 @@
 h2 {
 	color: white;
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 
 .h2ModalColor {
-	color: #EF4036;
+	color: #ee3344;
 	margin-top: 5px;
 }
 
@@ -19,7 +19,7 @@ p {
 }
 
 .pModalColor {
-	color: #404040;
+	color: #2c3a46;
 	font-size: 18px;
 }
 
@@ -33,7 +33,7 @@ button {
 }
 
 .bgColor {
-	background-color: #EF4036;
+	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {
