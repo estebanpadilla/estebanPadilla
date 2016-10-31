@@ -1,6 +1,11 @@
 {
     "title":"Need and iOS Developer?",
-	"description":"I am passionate iOS Developer with years of experience building apps and games for iPhone and iPad, I love new technologies and I am always looking for interesting and challenging projects, so if you are looking for someone to help you develop the app or games of your dreams do not hesitate to contact me, I would love to work with you.",
+	"descriptions":
+	[
+		"I am passionate iOS Developer with years of experience building apps and games for iPhone and iPad. I'm always looking for interesting and challenging projects, so if you need someone to help you develop the app or games of your dreams do not hesitate to contact me, I would love to work with you.",
+		"I can also be very helpfull on started projects where things did not go as planned I can assist to pick up the overflow and deliver your project on time.",
+		"I pride myself in communication and initiative to ensure my involvement is always seamless, flexible, cost-effective, and the highest of quality."
+	],
 	"image":"./assets/images/iosDevelopmentIcon.svg",
 	"titleIOS":"App Development",
 	"descriptionIOS":"You have an amazing app idea and you are ready to make come true. One important question that always comes up is what is the right technology to choose? The answer is very simple, if the user experience on your app is very important you should develop your app with native technolgies because you want your app to have all the chances to excel. I have many years of experience in application development for various platforms. Currently I’m specialized in native iOS development.",
@@ -14,5 +19,16 @@
 	"hireBoxTitle":"I am available",
     "hireBoxSubTitle":"Right Now!",
 	"contactBoxTitle":"ep@estebanpadilla.com",
-    "contactBoxSubTitle":"(506) 8706-6660"
+    "contactBoxSubTitle":"(506) 8706-6660",
+	"listTitle":"Here’s how I can help you:",
+    "list":
+    [
+        "I can help you on all the development stages of your iOS project.",
+		"I’m comfortable working both behind the scenes and in client-facing roles.",
+		"I can adapt to your workflow and tools (or even introduce something new).",
+		"I always have in mind the UI/UX best practices",
+		"I'm constantly keep updating on new design patterns and trends.",
+		"I've been working on swift right from the same day it came out on 2014.",
+		"I'm familiar with human Interface Guidelines and what makes a good UI."
+    ]
 }

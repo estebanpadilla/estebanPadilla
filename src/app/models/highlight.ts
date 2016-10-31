@@ -5,4 +5,6 @@ export class Highlight {
     descriptions:string[];
     color:string;
     selectedColor:string;
+    listTitle:string;
+    list:string[];
 }

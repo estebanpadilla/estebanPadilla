@@ -30,11 +30,16 @@ export class HighlightsComponent implements OnInit {
     this.selectedHighlight = highlight
   }
 
-  getSelectedHighlightColor(value:string){
-    if (value === this.selectedHighlight.title) { 
+  getSelectedHighlightColor(value:Highlight){
+    if (value.title === this.selectedHighlight.title) { 
         return "#ee3344";
     } else  {
-        return "#4d64ad";
+        return value.color;
     }
+  }
+
+  removeSelectedHightlightInfo(){
+    // this.selectedHighlight.descriptionTitle = '';
+    // this.selectedHighlight.descriptions = [];
   }
 }

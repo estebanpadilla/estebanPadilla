@@ -15,36 +15,47 @@
 	<br>
 	<div class="row textHorizontalSpace">
 		<div class="col-sm-12">
-			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-				<h2 class="text-left"><span>Need an </span><span class="h2_light">iOS </span><span>Developer?</span></h2>
-				<p class="text-left">{{ iosdeveloper.description }}</p>
-			</div>
-			<div class="col-xs-0 col-sm-0 col-md-5 col-lg-5 text-center">
+			<div class="text-center">
 				<img [src]="iosdeveloper.image">
+			</div>
+			<div>
+				<h2 class="text-left"><span>Need an </span><span class="h2_light">iOS </span><span>Developer?</span></h2>
+				<div *ngFor="let description of iosdeveloper.descriptions">
+					<p class="text-left">{{ description }}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h3>{{ iosdeveloper.listTitle }}</h3>
+			<div *ngFor="let item of iosdeveloper.list">
+				<li>{{ item }}</li>
 			</div>
 		</div>
 	</div>
 	<br>
-	<br>
-	<br>
+	<!--	
 	<div class="row textHorizontalSpace">
 		<div class="col-sm-12">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<div class="hobbie text-center"><img [src]="iosdeveloper.imageIOS"></div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="appIcon text-center"><img [src]="iosdeveloper.imageIOS"></div>
 				<h2 class="text-left">{{ iosdeveloper.titleIOS }}</h2>
 				<p class="p2 text-left">{{ iosdeveloper.iosText1 }}</p>
 				<p class="p3 text-left">{{ iosdeveloper.iosText2 }}</p>
 				<p class="p2 text-left">{{ iosdeveloper.iosText3 }}</p>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<div class="hobbie text-center"><img [src]="iosdeveloper.imageGame"></div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="appIcon text-center"><img [src]="iosdeveloper.imageGame"></div>
 				<h2 class="text-left">{{ iosdeveloper.titleGame }}</h2>
+				<p class="p2 text-left">{{ iosdeveloper.descriptionGame }}</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="appIcon text-center"><img [src]="iosdeveloper.imageGame"></div>
+				<h2 class="text-left">Frontend Development</h2>
 				<p class="p2 text-left">{{ iosdeveloper.descriptionGame }}</p>
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
+	-->
 	<br>
 	<br>
 </div>

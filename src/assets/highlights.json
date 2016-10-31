@@ -5,10 +5,11 @@
         "descriptionTitle":"Code to adapt to whatever comes along the way!",
         "descriptions":
         [   
-            "Technologies are constantly evolving every day, new ones come out and others die, I beleive the most important skill a developer should have is to be able to adapt and react fast to this ever changing world. Right now I'm focusing on iOS development but I know that it could change at any moment depending on the needs the future brings and I'm completed open to that.",
+            "Technologies are constantly evolving and new ones come out and others die, I beleive the most important skill a developer should have is the capacity to adapt fast to this ever changing world. Right now I'm focusing on iOS development but I know that it could change at any moment depending on the needs the future brings.",
             "I would love to say that I am a super mega rock-star coding in Swift, Objective-C, Html, JS, CSS, PHP, Java, SQL, Ruby, C++, C#,  but I'm not. I'm just a developer that right now enjoys making app for iOS."
         ],
-        "color":"#ee3344"
+        "color":"#2c3a46",
+        "selectedColor":"#ee3344"
     },
     {
         "title":"Design",
@@ -19,7 +20,8 @@
             "The wheel is already invented so how can I design a better wheel? I would approach this task not by making a new wheel but improving and enhancing the wheel I already have. Maybe by making a lighter, stronger, reusable, cheaper, storable, recyclable, adaptable, a better looking one. A problem could be resolve using designs already proven and patterns that other people have tested.",
             "I think a good designer has a good eye to analize and detecting the issue and find the right fix. "
         ],
-        "color":"#ee3344"
+        "color":"#2c3a46",
+        "selectedColor":"#ee3344"
     },
     {
         "title":"Agile",
@@ -31,7 +33,8 @@
             "So your team uses scrum and have daily meeting to check on the progress and keep track of delevopment in a tool like Jira, and make sprint planning and move prioritized stories from the backlog so yes, I'm used to that and also to receive a document with all the specifications and all the requirements the software will needs and start working.",
             "So not matter the tendency I do the work always aiming to excel on what I do."
         ],
-        "color":"#ee3344"
+        "color":"#2c3a46",
+        "selectedColor":"#ee3344"
     },
     {
         "title":"Communication",
@@ -39,9 +42,10 @@
         "descriptionTitle":"Communicating to my team",
         "descriptions":
         [
-            "Right now there are some tools out that help teams to improve their communications and that is good but I think communication is even more than having a software with chats,  calls,  file sharing, video conferencing, screen sharing and so on, communication is the ability to transmit your ideas and needs at the right moment and knowing that you are part of a scheme that is functioning to accomplish a specific goal.",
+            "Right now there are many tools that help teams to improve their communications and that is good but I think communication is even more than having a application capable of making  calls, chats, file sharing, video conferencing, screen sharing and so on, communication is the ability to transmit your ideas and needs at the right moment and knowing that you are part of a scheme that is functioning to accomplish a specific goal in a project.",
             "Communication is knowing that you are not an isolated person working on a task that you are part of a body that needs all it's parts at all time."
         ],
-        "color":"#ee3344"
+        "color":"#2c3a46",
+        "selectedColor":"#ee3344"
     }
 ]

@@ -1,7 +1,7 @@
 export class IOSDeveloper {
 	
     title:string;
-	description:string;
+	descriptions:string[];
 	image:string;
 
 	titleIOS:string;

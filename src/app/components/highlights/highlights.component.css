@@ -4,7 +4,7 @@ h2 {
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
 	margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 h3 {
@@ -35,10 +35,11 @@ img {
 	cursor: pointer;	
   	max-width: 100px;
 	max-height: 100px;
+	margin-top:15px;
 }
 
 .bgColor {
-	background-color: #ee3344;
+	background-color: #2c3a46;
 }
 
 .bgColor2 {
@@ -68,10 +69,10 @@ img {
     text-align: center;
 	margin-right: -15px;
     margin-left: -15px;
-	margin-bottom: -9px;
-	margin-top: 2px;
-	border-right-style: solid;
-	border-right-color: #2c3a46;
+	margin-bottom: -13px;
+	margin-top: 0px;
+	
+	
 }
 
 .removeTopAndBottonMarging {
