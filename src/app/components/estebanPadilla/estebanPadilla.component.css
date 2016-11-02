@@ -37,24 +37,6 @@
     user-select: none;
 }
 
-@media all and (max-width: 699px) and (min-width: 200px) {
-    .pTitle {
-	    font-size: 60px;
-        margin-bottom: 5px;
-        line-height:52px;
-    }
-
-    .p1 {
-        font-size: 35px;
-        line-height:35px;
-    }
-
-    .p2 {
-        font-size: 17px;
-        line-height:19px;
-    }
-}
-
 img {
 	height: auto;
     max-height: 250px;
@@ -160,4 +142,27 @@ img {
     fill:#2c3a46;
 	height:100%;
 	width: auto;
+}
+
+@media all and (max-width: 699px) and (min-width: 200px) {
+    .pTitle {
+	    font-size: 60px;
+        margin-bottom: 5px;
+        line-height:52px;
+        margin-top:0px;
+    }
+
+    .p1 {
+        font-size: 35px;
+        line-height:35px;
+    }
+
+    .p2 {
+        font-size: 17px;
+        line-height:19px;
+    }
+
+    .logo {
+        height: 200px;
+    }
 }

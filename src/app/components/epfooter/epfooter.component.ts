@@ -24,16 +24,15 @@ export class EpFooterComponent implements OnInit {
 	ngOnInit() {
 		this.title = 'Technologies and tools used on this site';
 		this.description = `Sometimes when visited a site I wonder 
-							what tools and technologies did they use to 
-							created it and that is why I am adding this 
+							what tools and technologies they use to 
+							created it and that's why I'm adding this 
 							section in case you have the same questions. 
 							I started learning Angular 2 a few weeks ago 
-							and the best way to understand something is 
-							creating something that is why I used here. 
+							and the best way to understand it is 
+							creating something. 
 							With the hosting I decided to look for something 
-							free, reliable and easy to setup so 
-							I ended using Firebase.`;
-		this.angularText = 'Proudly made with Angular 2';
+							free, reliable and easy to setup so I ended using Firebase.`;
+		this.angularText = 'Made with Angular 2';
 		this.angularImg = '../assets/images/angular.png';
 		this.firebaseText = 'Hosted on Google Firebase';
 		this.firebaseImg = '../assets/images/firebaseLogo.png';
