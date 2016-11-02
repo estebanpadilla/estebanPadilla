@@ -107,11 +107,38 @@ img {
     height: 40px;
 }
 
-.twitter img {
-	height: 40px;
-    width: auto;
-    justify-content: center;
-    flex-direction: column;
+.twitterSVG {
+    fill: white;
+}
+
+.twitterSVG:hover {
+    animation-name: hoverIn;
+    animation-duration: 0.25s;
+    animation-delay: 0.1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+}
+
+@keyframes hoverIn {
+    from {fill:white;}
+    to {fill:#ffdd17;}
+
+    0% {
+    transform:  rotate(0deg) ;
+    }
+    25% {
+    transform:  rotate(15deg) ;
+    }
+    50% {
+    transform:  rotate(0deg) ;
+    }
+    75% {
+    transform:  rotate(-15deg) ;
+    }
+    100% {
+    transform:  rotate(0deg) ;
+    }
 }
 
 .github {
@@ -123,11 +150,17 @@ img {
     height: 40px;
 }
 
-.github img {
-	height: 40px;
-    width: auto;
-    justify-content: center;
-    flex-direction: column;
+.githubSVG {
+	fill:white;
+}
+
+.githubSVG:hover {
+    animation-name: hoverIn;
+    animation-duration: 0.25s;
+    animation-delay: 0.1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode:forwards;
 }
 
 .logo {
