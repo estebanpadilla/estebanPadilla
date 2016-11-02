@@ -1,5 +1,5 @@
 
-<div class="bgColor">
+<div class="bgColor headerSpaces">
 <br>
 <br>
 <br>
@@ -14,8 +14,18 @@
 		<a href="{{ user.githubUrl }}"><img [src]="user.github"></a>
 	</div>
 	<div class="row textHorizontalSpace">
-		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 ">
-	 		<div class="text-center img-responsive"><img [src]="user.avatar"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 text-center">
+			 <div class="logo">
+				<svg 	class="logoSVG" 
+						xmlns="http://www.w3.org/2000/svg" 
+						viewBox="0 0 200 200">
+					<g>
+						<circle cx="130.3" cy="90.1" r="7.6"/>
+						<circle cx="69.7" cy="90.1" r="7.6"/>
+						<path d="M100 0c-55.2 0-100 44.8-100 100s44.8 100 100 100 100-44.8 100-100-44.8-100-100-100zm3 68.3c3.1-1 6.1-2.2 9.1-3.3v22.2h-9.1v-18.9zm72.8 55.9h-17.8v50c-17 12.9-36.9 19.7-58 19.7s-41-6.8-58-19.7v-50h-17.8c-1.7 0-3-1.4-3-3v-60.6c0-1.7 1.4-3 3-3h60.6c1.7 0 3 1.4 3 3v12.1c3.1-.8 6.1-1.6 9.1-2.5v16.9h-9.1v-14.3l-6 1.4v-10.6h-54.5v54.5h14.7v-39.3c13.5-.2 26.7-1.8 39.7-4.6v43.9h-39.3v6.1h42.4c1.7 0 3-1.4 3-3v-28h9.2v33.8h-18.2c-1.7 0-3 1.3-3 3s1.4 3 3 3h21.2c1.7 0 3-1 3-2.7v-37.1h9.1v28c0 1.7 1.4 3 3 3h42.4v-6.1h-39.4v-54.5h39.4v-6.1h-29.1c10.3-5.2 20.1-11.3 29.6-18.3v18.3h17.8c1.7 0 3 1.4 3 3v60.6c0 1.8-1.4 3.1-3 3.1zM83.6 174.1c-13.8 0-25-11.2-25-25 0-1.6-1.3-3-3-3-1.6 0-3 1.3-3 3 0 17.2 14 31.1 31.1 31.1 1.7 0 3-1.4 2.9-3.1 0-1.6-1.3-3-3-3zM158 63.6h14.7v54.5h-14.7z"/>
+					</g>
+				</svg>
+			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 ">
 			<div class=" row displayOptions">
@@ -23,7 +33,7 @@
 					<p class="pTitle">{{ user.name }}</p>
 				</div>
 				<div class="col-lg-12">
-					<p>{{ user.description }}</p>
+					<p class="p1">{{ user.description }}</p>
 				</div>
 				<div class="col-lg-12">
 					<p class="p2">And extremely handsome according to my youngest daugther!</p>

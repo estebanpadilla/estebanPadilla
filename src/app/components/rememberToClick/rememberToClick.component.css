@@ -1,14 +1,12 @@
+@import url("styles.css") bgColor3;
+
 h2 {
-	color: #2c3a46;
+	color: #152639;
 	font-size: 18px;
 	font-weight: 900;
     font-family: 'Lato', sans-serif;
     font-style: italic;
     margin-bottom: 20px;
-}
-
-.bgColor {
-	background-color: #ffdd17;
 }
 
 .textHorizontalSpace {

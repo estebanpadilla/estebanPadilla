@@ -32,13 +32,7 @@ a:hover {
 }
 
 .bgColor1 {
-	background: repeating-linear-gradient(
-	  45deg,
-	  #ee3344,
-	  #ee3344 10px,
-	  #eb2c32 10px,
-	  #eb2c32 20px
-	);
+	background-color: #ee3344;
 	text-align: center;
 	height: inherit;
     display: flex;
@@ -51,15 +45,7 @@ a:hover {
 }
 
 .bgColor2 {
-	
-	background: repeating-linear-gradient(
-	  135deg,
-	  #ee3344,
-	  #ee3344 10px,
-	  #eb2c32 10px,
-	  #eb2c32 20px
-	);
-
+	background-color: #ee3344;
 	text-align: center;
 	height: inherit;
     display: flex;

@@ -1,37 +1,58 @@
+@import url("styles.css") bgColor;
+
 .pTitle {
 	color: white;
-	font-size: 60px;
-	font-weight: 900;
-    font-family: 'Lato', sans-serif;
+	font-size: 100px;
+    font-family: 'Boogaloo', cursive;
 	height: 100%;
     margin-bottom: 10px;
-    margin-top: auto;
+    margin-top: -20px;
     text-align: center;
-    line-height:50px;
+    line-height:85px;
+    user-select: none;
 }
 
-p {
-	color: #ffeead;
-	font-size: 35px;
+.p1 {
+	color: #ffdd17;
+	font-size: 55px;
 	font-weight: 400;
 	font-family: 'Bangers', cursive;
 	height: 100%;
     margin-top: 0px;
-    line-height:35px;
+    line-height:50px;
     text-align: center;
+    user-select: none;
 }
 
 .p2 {
 	color: #820000;
-	font-size: 17px;
+	font-size: 25px;
 	font-weight: 400;
 	font-style: italic;
     font-family: 'Lato', sans-serif;
 	height: 100%;
     margin-top: -10px;
     text-align: center;
-    line-height: 17px;
+    line-height: 25px;
+    user-select: none;
+}
 
+@media all and (max-width: 699px) and (min-width: 200px) {
+    .pTitle {
+	    font-size: 60px;
+        margin-bottom: 5px;
+        line-height:52px;
+    }
+
+    .p1 {
+        font-size: 35px;
+        line-height:35px;
+    }
+
+    .p2 {
+        font-size: 17px;
+        line-height:19px;
+    }
 }
 
 img {
@@ -41,9 +62,8 @@ img {
     align-content: center;
 }
 
-.bgColor {
-	background-color: #ee3344;
-	padding-top: 30px;
+.headerSpaces {
+    padding-top: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
@@ -55,9 +75,8 @@ img {
 }
 
 .displayOptions {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
+    
+    margin-top: 5%;
 }
 
 .lastUpdateBox{
@@ -79,7 +98,7 @@ img {
     font-weight: 900;
     font-family: 'Lato', sans-serif;
     height:50%;
-    margin-top: -28px;
+    margin-top: -21px;
     margin-bottom: 0px;
     margin-left: -15px;
     text-align: center;
@@ -127,4 +146,18 @@ img {
     width: auto;
     justify-content: center;
     flex-direction: column;
+}
+
+.logo {
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+.logoSVG {
+    fill:#2c3a46;
+	height:100%;
+	width: auto;
 }

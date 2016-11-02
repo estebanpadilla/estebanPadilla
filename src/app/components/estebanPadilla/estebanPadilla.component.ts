@@ -20,6 +20,6 @@ export class EstebanPadillaComponent {
 	ngOnInit() {
 		this.dataService.fetchUser().subscribe(((data) => this.user = data));
 		this.updateTitle = 'Updated';
-		this.lastUpdate = 'Oct 2017';
+		this.lastUpdate = 'Nov 2016';
 	}
 }

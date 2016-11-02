@@ -1,3 +1,5 @@
+@import url("styles.css") bgColor, bgColor;
+
 h2 {
 	color: white;
 	font-size: 35px;
@@ -16,7 +18,7 @@ h3 {
 
 h4 {
     color:white;
-    font-size: 2.5vmin;
+    font-size: 20px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
     margin-top: -10px;
@@ -31,22 +33,6 @@ p {
 	margin-top: 20px;
 }
 
-img {
-	cursor: pointer;	
-  	max-width: 100px;
-	max-height: 100px;
-	margin-top:15px;
-}
-
-.bgColor {
-	background-color: #2c3a46;
-}
-
-.bgColor2 {
-	background-color: #2c3a46;
-	padding-bottom: 3px;
-}
-
 .textHorizontalSpace {
 	margin-left: 30px;
 	margin-right: 30px;
@@ -57,7 +43,6 @@ img {
 	margin-right: 0px;
 }
 
-
 .line {
     background-color:#152639;
     height:5px;
@@ -67,15 +52,18 @@ img {
 .highlightStyle {
 	cursor: pointer;
     text-align: center;
-	margin-right: -15px;
-    margin-left: -15px;
-	margin-bottom: -13px;
-	margin-top: 0px;
-	
-	
 }
 
 .removeTopAndBottonMarging {
 	margin-top: -30px;
 	margin-bottom: 30px;
 }
+
+.highlightSvg {
+	height:70px;
+	width: auto;
+	display: inline-block;
+	margin-top: 20px;
+    margin-bottom: 15px;
+}
+
