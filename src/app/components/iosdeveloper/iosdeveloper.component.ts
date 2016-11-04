@@ -32,6 +32,9 @@ export class IosdeveloperComponent implements OnInit {
 	constructor( private dataService:DataService ) {}
 
 	ngOnInit() {
-		this.dataService.fetchIOSDeveloper().subscribe((data) => this.iosdeveloper = data);
+		this.dataService.fetchIOSDeveloper().subscribe((data) => {
+			this.iosdeveloper = data; 
+		});
+		
 	}
 }

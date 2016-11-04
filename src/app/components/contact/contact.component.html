@@ -3,7 +3,10 @@
 	
 	<a href="mailto:{{ user.email }}">
 	<div class="emailMe">
-		<div class="emailMeImg"><img [src]="image"></div>
+		<svg class="emailMeSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+			<g><path [attr.d]="image1"/></g>
+			<path [attr.d]="image2"/>
+		</svg>
 		<p class="emailMeText">Email me!</p>
 	</div>
 	</a>
