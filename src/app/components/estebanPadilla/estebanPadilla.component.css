@@ -169,6 +169,8 @@ img {
     border-radius: 50%;
     background-color: white;
     display: inline-block;
+    margin-left: 25px;
+    margin-top: 40px;
 }
 
 .logoSVG {
@@ -184,11 +186,12 @@ img {
 
 .signBox {
     margin-left: -45px;
+    height: 350px;
 }
 
 .sign {
     margin-left: -30px;
-    height: 300px;
+    height: 350px;
     width: auto;
 }
 
@@ -211,9 +214,9 @@ img {
     }
 
     .logo {
-        height: 150px;
-        margin-left: 10px;
-        margin-top: 20px;
+        height: 125px;
+        margin-left: 25px;
+        margin-top: 40px;
     }
 
     .logoBox {
@@ -221,13 +224,12 @@ img {
     }
 
     .sign {
-        height: 200px;
+        height: 230px;
         width: auto;
     }
 
-    img {
-        height: auto;
-        max-height: 200px;
-        width: auto;
+    .signBox {
+        margin-left: -45px;
+        height: 250px;
     }
 }
