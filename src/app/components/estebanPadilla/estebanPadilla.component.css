@@ -39,7 +39,7 @@
 
 img {
 	height: auto;
-    max-height: 250px;
+    max-height: 300px;
     width: auto;
     align-content: center;
 }
@@ -177,6 +177,21 @@ img {
 	width: auto;
 }
 
+.logoBox {
+    margin-left: -50px;
+}
+
+
+.signBox {
+    margin-left: -45px;
+}
+
+.sign {
+    margin-left: -30px;
+    height: 300px;
+    width: auto;
+}
+
 @media all and (max-width: 699px) and (min-width: 200px) {
     .pTitle {
 	    font-size: 60px;
@@ -196,6 +211,23 @@ img {
     }
 
     .logo {
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .logoBox {
+        margin-left: 20px;
+    }
+
+    .sign {
         height: 200px;
+        width: auto;
+    }
+
+    img {
+        height: auto;
+        max-height: 200px;
+        width: auto;
     }
 }

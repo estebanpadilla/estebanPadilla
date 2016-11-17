@@ -14,6 +14,7 @@ export class EstebanPadillaComponent {
 	user:User = new User();
 	updateTitle:string;
 	lastUpdate:string;
+	sign:string = '../assets/images/sign.svg';
 
 	constructor(private dataService:DataService ) { }
 
