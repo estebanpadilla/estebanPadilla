@@ -1,3 +1,5 @@
+@import url("styles.css") bgColor2;
+
 h2 {
 	color: white;
 	font-size: 40px;
@@ -11,10 +13,6 @@ p {
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	margin-top: 20px;
-}
-
-.bgColor {
-	background-color: #2c3a46;
 }
 
 .textHorizontalSpace {

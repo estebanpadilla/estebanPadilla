@@ -1,7 +1,7 @@
-@import url("styles.css") bgColor;
+@import url("styles.css") bgColor, bgColor4;
 
 .pTitle {
-	color: white;
+	color: #2b0d3b;
 	font-size: 100px;
     font-family: 'Boogaloo', cursive;
 	height: 100%;
@@ -13,7 +13,7 @@
 }
 
 .p1 {
-	color: #ffdd17;
+	color: #ee3444;
 	font-size: 55px;
 	font-weight: 400;
 	font-family: 'Bangers', cursive;
@@ -25,7 +25,7 @@
 }
 
 .p2 {
-	color: #820000;
+	color: #2b0d3b;
 	font-size: 25px;
 	font-weight: 400;
 	font-style: italic;
@@ -62,20 +62,20 @@ img {
 }
 
 .lastUpdateBox{
-    background-color:#2c3a46;
+    background-color:#2b0d3b;
     position:absolute;
     float: left;
     top: 10px;
     width: 150px;
     height: 50px;
     margin-left: -30px;
-    border-color: transparent #ee3344 transparent transparent;
+    border-color: transparent #b5e2ef transparent transparent;
     border-style: solid;
     border-width: 25px;
 }
 
 .lastUpdateBox_h1 {
-    color: #eef8fd;
+    color: white;
     font-size: 16px;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
@@ -88,7 +88,7 @@ img {
 }
 
 .lastUpdateBox_p {
-    color: #eef8fd;
+    color: white;
     font-size: 16px;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
@@ -122,7 +122,7 @@ img {
 
 @keyframes hoverIn {
     from {fill:white;}
-    to {fill:#ffdd17;}
+    to {fill:#2b0d3b;}
 
     0% {
     transform:  rotate(0deg) ;
@@ -172,7 +172,7 @@ img {
 }
 
 .logoSVG {
-    fill:#2c3a46;
+    fill:#2b0d3b;
 	height:100%;
 	width: auto;
 }
