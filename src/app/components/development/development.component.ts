@@ -26,8 +26,11 @@ export class DevelopmentComponent implements OnInit {
       this.testingData = data[2]; 
     });
 
-    this.title = 'Development Prccess'
-    this.description = "A short description about my development process"
+    this.title = 'Development Procces';
+    this.description = `By having an established process to develop it allows me 
+                        to focus on the main functions and core principles of my 
+                        current and future projects. Sequentially, it allows me 
+                        to build the best possible product.`;
   }
 
   getTitleColor( data:string ) {

@@ -23,6 +23,80 @@
 	.st16{fill:#39C6F4;}
 	.st17{font-family:'AeroviasBrasilNF';}
 	.st18{font-size:16;}
+
+
+	.desWheelsAnimation1 {
+		animation-name:epDesWheelsAnimation1;
+		animation-duration: 2s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDesWheelsAnimation1 {
+		
+		0% {
+		  	transform-origin: 115.8px 307px;
+			transform: rotate(0deg); 
+		}
+		15% {
+			transform-origin: 115.8px 307px;
+			transform: rotate(120deg); 
+		}
+		20% {
+			transform-origin: 115.8px 307px;
+			transform: rotate(125deg); 
+		}
+		50% {
+			transform-origin: 115.8px 307px;
+			transform: rotate(125deg); 
+		}
+		55% {
+			transform-origin: 115.8px 307px;
+			transform: rotate(200deg); 
+		}
+		100% {
+		  	transform-origin: 115.8px 307px;
+			transform: rotate(360deg); 
+		}
+	}
+		
+	.desWheelsAnimation2 {
+		animation-name:epDesWheelsAnimation2;
+		animation-duration: 2s;
+		animation-delay:0.1s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDesWheelsAnimation2 {
+		
+		0% {
+		  	transform-origin: 115.8px 369px;
+			transform: rotate(0deg); 
+		}
+		15% {
+			transform-origin: 115.8px 369px;
+			transform: rotate(120deg); 
+		}
+		20% {
+			transform-origin: 115.8px 369px;
+			transform: rotate(125deg); 
+		}
+		50% {
+			transform-origin: 115.8px 369px;
+			transform: rotate(125deg); 
+		}
+		55% {
+			transform-origin: 115.8px 369px;
+			transform: rotate(200deg); 
+		}
+		100% {
+		  	transform-origin: 115.8px 369px;
+			transform: rotate(360deg); 
+		}
+	}
 </style>
 <path class="st0" d="M270.8,184h-70c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h70c5.5,0,10,4.5,10,10v42
 	C280.8,179.5,276.4,184,270.8,184z"/>
@@ -37,14 +111,14 @@
 <rect x="16.4" y="397.1" class="st1" width="5" height="2"/>
 <rect x="16.4" y="401.6" class="st1" width="5" height="2"/>
 <path class="st7" d="M33.7,400.1c0,0,2.6,20.1,15.7,20.2c13.3,0,17.6-15.4,23.6-53"/>
-<g>
+<g class="desWheelsAnimation1">
 	<circle class="st4" cx="115.8" cy="307" r="25"/>
 	<circle class="st8" cx="115.8" cy="307" r="8.3"/>
 	<path class="st8" d="M117.9,292.6v-6.4h-4.2v6.4c0.7-0.1,1.4-0.2,2.1-0.2S117.2,292.5,117.9,292.6z"/>
 	<path class="st8" d="M96.7,315.6l2.1,3.6l5.6-3.2c-0.9-1.1-1.6-2.3-2.1-3.6L96.7,315.6z"/>
 	<path class="st8" d="M127.3,316l5.6,3.2l2.1-3.6l-5.5-3.2C128.8,313.7,128.1,314.9,127.3,316z"/>
 </g>
-<g>
+<g class="desWheelsAnimation2">
 	<circle class="st4" cx="115.8" cy="369" r="25"/>
 	<circle class="st8" cx="115.8" cy="369" r="8.3"/>
 	<path class="st8" d="M117.9,354.6v-6.4h-4.2v6.4c0.7-0.1,1.4-0.2,2.1-0.2S117.2,354.5,117.9,354.6z"/>
@@ -157,7 +231,7 @@
 	C207.5,129,248.2,129,253.7,134.5z"/>
 <rect x="231.3" y="184" class="st3" width="9" height="9"/>
 <rect x="225.8" y="193" class="st0" width="20" height="5"/>
-<text transform="matrix(0.9888 0 0 1 210.2005 156.8336)"><tspan x="0" y="0" class="st12 st17 st18">-&gt; hel</tspan><tspan x="25.5" y="0" class="st12 st17 st18">l</tspan><tspan x="28.6" y="0" class="st12 st17 st18">o</tspan></text>
+<text transform="matrix(0.9888 0 0 1 210.2005 156.8336)"><tspan x="0" y="0" class="st12 st17 st18">0101</tspan></text>
 <circle class="st1" cx="269" cy="145" r="7"/>
 <circle class="st16" cx="269" cy="145" r="4.5"/>
 <circle class="st1" cx="269" cy="162" r="7"/>

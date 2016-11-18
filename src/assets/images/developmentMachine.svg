@@ -26,6 +26,135 @@
 	.st19{font-family:'AeroviasBrasilNF';}
 	.st20{font-size:16;}
 	.st21{fill:#B6E2F3;}
+
+	.devLightsAnimation1 {
+		animation-name:epDevLightsAnimation1;
+		animation-duration: 2s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDevLightsAnimation1 {
+		
+		0% {
+    		fill: #44B649;	
+  		}
+
+		50% {
+			fill: #44B649;
+		}
+
+		55%{
+			fill: #EE3445;
+		}
+
+  		100% {
+		  fill: #EE3445;
+  		}
+	}
+
+	.devLightsAnimation2 {
+		animation-name:epDevLightsAnimation2;
+		animation-duration: 2s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDevLightsAnimation2 {
+		
+		0% {
+    		fill: #EE3445;	
+  		}
+
+		50% {
+			fill: #EE3445;
+		}
+
+		55%{
+			fill: #44B649;
+		}
+
+  		100% {
+		  fill: #44B649;
+  		}
+	}
+
+	.devWheelsAnimation1 {
+		animation-name:epDevWheelsAnimation1;
+		animation-duration: 2s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDevWheelsAnimation1 {
+		
+		0% {
+		  	transform-origin: 130.7px 375px;
+			transform: rotate(0deg); 
+		}
+		25% {
+			transform-origin: 130.7px 375px;
+			transform: rotate(120deg); 
+		}
+		30% {
+			transform-origin: 130.7px 375px;
+			transform: rotate(125deg); 
+		}
+		40% {
+			transform-origin: 130.7px 375px;
+			transform: rotate(125deg); 
+		}
+		50% {
+			transform-origin: 130.7px 375px;
+			transform: rotate(200deg); 
+		}
+		100% {
+		  	transform-origin: 130.7px 375px;
+			transform: rotate(360deg); 
+		}
+	}
+
+
+	.devWheelsAnimation2 {
+		animation-name:epDevWheelsAnimation2;
+		animation-duration: 2s;
+		animation-delay:0.1s;
+		animation-iteration-count:infinite; 
+		animation-direction: alternate-reverse; 
+		animation-timing-function:ease-in;
+	}
+
+	@keyframes epDevWheelsAnimation2 {
+		
+		0% {
+		  	transform-origin: 71.1px 375px;
+			transform: rotate(0deg); 
+		}
+		25% {
+			transform-origin: 71.1px 375px;
+			transform: rotate(120deg); 
+		}
+		30% {
+			transform-origin: 71.1px 375px;
+			transform: rotate(125deg); 
+		}
+		40% {
+			transform-origin: 71.1px 375px;
+			transform: rotate(125deg); 
+		}
+		50% {
+			transform-origin: 71.1px 375px;
+			transform: rotate(200deg); 
+		}
+		100% {
+		  	transform-origin: 71.1px 375px;
+			transform: rotate(360deg); 
+		}
+	}
+
 </style>
 <rect x="254" y="377.4" class="st0" width="36" height="22"/>
 <circle class="st1" cx="279.4" cy="388.4" r="6.5"/>
@@ -37,8 +166,7 @@
 	h30V129z"/>
 <path class="st1" d="M126.4,129c0-5.5-4.5-10-10-10s-10,4.5-10,10v28h20V129z"/>
 <g>
-	
-		<rect x="251.7" y="263.4" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 238.072 650.3666)" class="st2" width="4" height="25"/>
+	<rect x="251.7" y="263.4" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 238.072 650.3666)" class="st2" width="4" height="25"/>
 	<circle class="st6" cx="262.5" cy="266.5" r="6.5"/>
 </g>
 <g>
@@ -104,9 +232,9 @@
 </g>
 <path class="st2" d="M104.6,407h-9c-1.7,0-3-1.3-3-3v-4h15v4C107.6,405.7,106.2,407,104.6,407z"/>
 <line class="st12" x1="71.1" y1="397.5" x2="128.2" y2="397.5"/>
-<circle class="st3" cx="130.7" cy="375" r="25"/>
-<circle class="st0" cx="130.7" cy="375" r="5"/>
-<g>
+<g class="devWheelsAnimation1">
+	<circle class="" cx="130.7" cy="375" r="25"/>
+	<circle class="st0" cx="130.7" cy="375" r="5"/>
 	<g>
 		<polygon class="st0" points="119.6,378.7 122.1,383 112.9,387.2 111.4,384.6 		"/>
 	</g>
@@ -117,9 +245,10 @@
 		<polygon class="st0" points="133.2,364 128.2,364 129.2,354 132.2,354 		"/>
 	</g>
 </g>
-<circle class="st3" cx="71.1" cy="375" r="25"/>
-<circle class="st0" cx="71.1" cy="375" r="5"/>
-<g>
+
+<g class="devWheelsAnimation2">
+	<circle class="st3" cx="71.1" cy="375" r="25"/>
+	<circle class="st0" cx="71.1" cy="375" r="5"/>
 	<g>
 		<polygon class="st0" points="59.9,378.7 62.4,383 53.3,387.2 51.8,384.6 		"/>
 	</g>
@@ -175,30 +304,30 @@
 		C236.4,221.2,231.9,225.7,226.4,225.7z"/>
 </g>
 <g>
-	<rect x="184.8" y="266.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="197.8" y="279.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="184.8" y="292.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="197.8" y="305.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="210.8" y="318.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="184.8" y="331.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="210.8" y="331.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="197.8" y="344.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="197.8" y="357.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="184.8" y="370.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="210.8" y="370.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="197.8" y="383.1" class="st6" width="9.8" height="9.8"/>
-	<rect x="184.8" y="396.1" class="st6" width="9.8" height="9.8"/>
+	<rect x="184.8" y="266.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="197.8" y="279.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="184.8" y="292.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="197.8" y="305.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="210.8" y="318.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="184.8" y="331.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="210.8" y="331.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="197.8" y="344.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="197.8" y="357.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="184.8" y="370.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="210.8" y="370.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="197.8" y="383.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
+	<rect x="184.8" y="396.1" class="devLightsAnimation1" width="9.8" height="9.8"/>
 </g>
 <g>
-	<rect x="197.8" y="266.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="184.8" y="279.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="197.8" y="292.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="210.8" y="305.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="197.8" y="318.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="184.8" y="344.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="210.8" y="357.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="197.8" y="370.1" class="st16" width="9.8" height="9.8"/>
-	<rect x="197.8" y="396.1" class="st16" width="9.8" height="9.8"/>
+	<rect x="197.8" y="266.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="184.8" y="279.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="197.8" y="292.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="210.8" y="305.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="197.8" y="318.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="184.8" y="344.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="210.8" y="357.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="197.8" y="370.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
+	<rect x="197.8" y="396.1" class="devLightsAnimation2" width="9.8" height="9.8"/>
 </g>
 <g>
 	<rect x="210.8" y="266.1" class="st5" width="9.8" height="9.8"/>
@@ -268,7 +397,7 @@
 	C54,266.1,99.7,266.1,107.5,273.9z"/>
 <path class="st3" d="M105.4,275.4c7.3,7.3,7.3,34.4,0,41.7c-7.3,7.3-49.8,7.3-57.1,0s-7.3-34.4,0-41.7
 	C55.6,268.1,98.1,268.1,105.4,275.4z"/>
-<text transform="matrix(0.9888 0 0 1 58.8934 299.023)"><tspan x="0" y="0" class="st17 st19 st20">-&gt; hel</tspan><tspan x="25.5" y="0" class="st17 st19 st20">l</tspan><tspan x="28.6" y="0" class="st17 st19 st20">o</tspan></text>
+<text transform="matrix(0.9888 0 0 1 58.8934 299.023)"><tspan x="0" y="0" class="st17 st19 st20">>...</tspan></text>
 <circle class="st3" cx="150" cy="283.5" r="10"/>
 <circle class="st16" cx="150" cy="283.5" r="6.4"/>
 <path class="st3" d="M119.8,308h39.8c-0.1-0.7-0.2-1.4-0.5-2h-38.9C120,306.7,119.9,307.3,119.8,308z"/>

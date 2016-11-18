@@ -78,7 +78,7 @@ img {
 	background-color: #ffdd17;
   	position:relative;
   	float: left;
-  	top: 20px;
+  	top: 10px;
   	width: 150px;
   	height: 50px;
 	border-color: transparent #ee3344 transparent transparent;
@@ -115,7 +115,7 @@ img {
 	background-color: #ee3344;
   	position:relative;
   	float: left;
-  	top: 20px;
+  	top: 10px;
   	width: 220px;
   	height: 50px;
 	border-color: transparent #b5e2ef transparent transparent;
