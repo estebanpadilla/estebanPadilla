@@ -27,76 +27,65 @@
 
 	.desWheelsAnimation1 {
 		animation-name:epDesWheelsAnimation1;
-		animation-duration: 2s;
+		animation-duration: 4s;
 		animation-iteration-count:infinite; 
-		animation-direction: alternate-reverse; 
-		animation-timing-function:ease-in;
+		animation-direction:reverse;
+		animation-timing-function:linear;
 	}
 
 	@keyframes epDesWheelsAnimation1 {
-		
 		0% {
 		  	transform-origin: 115.8px 307px;
 			transform: rotate(0deg); 
 		}
-		15% {
-			transform-origin: 115.8px 307px;
-			transform: rotate(120deg); 
-		}
-		20% {
-			transform-origin: 115.8px 307px;
-			transform: rotate(125deg); 
+		40% {
+		  	transform-origin: 115.8px 307px;
+			transform: rotate(180deg); 
 		}
 		50% {
-			transform-origin: 115.8px 307px;
-			transform: rotate(125deg); 
+		  	transform-origin: 115.8px 307px;
+			transform: rotate(180deg); 
 		}
 		55% {
-			transform-origin: 115.8px 307px;
-			transform: rotate(200deg); 
+		  	transform-origin: 115.8px 307px;
+			transform: rotate(140deg); 
 		}
 		100% {
 		  	transform-origin: 115.8px 307px;
 			transform: rotate(360deg); 
 		}
 	}
-		
+			
 	.desWheelsAnimation2 {
 		animation-name:epDesWheelsAnimation2;
-		animation-duration: 2s;
-		animation-delay:0.1s;
-		animation-iteration-count:infinite; 
-		animation-direction: alternate-reverse; 
+		animation-duration: 4s;
+		animation-iteration-count:infinite;  
 		animation-timing-function:ease-in;
 	}
 
 	@keyframes epDesWheelsAnimation2 {
-		
 		0% {
 		  	transform-origin: 115.8px 369px;
 			transform: rotate(0deg); 
 		}
-		15% {
-			transform-origin: 115.8px 369px;
-			transform: rotate(120deg); 
-		}
-		20% {
-			transform-origin: 115.8px 369px;
-			transform: rotate(125deg); 
+		45% {
+		  	transform-origin: 115.8px 369px;
+			transform: rotate(220deg); 
 		}
 		50% {
-			transform-origin: 115.8px 369px;
-			transform: rotate(125deg); 
+		  	transform-origin: 115.8px 369px;
+			transform: rotate(180deg); 
 		}
-		55% {
-			transform-origin: 115.8px 369px;
-			transform: rotate(200deg); 
+		60% {
+		  	transform-origin: 115.8px 369px;
+			transform: rotate(180deg); 
 		}
 		100% {
 		  	transform-origin: 115.8px 369px;
 			transform: rotate(360deg); 
 		}
 	}
+
 </style>
 <path class="st0" d="M270.8,184h-70c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h70c5.5,0,10,4.5,10,10v42
 	C280.8,179.5,276.4,184,270.8,184z"/>
