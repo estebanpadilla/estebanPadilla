@@ -6,7 +6,7 @@
     font-family: 'Boogaloo', cursive;
 	height: 100%;
     margin-bottom: 10px;
-    margin-top: -20px;
+    margin-top: 15px;
     text-align: center;
     line-height:85px;
     user-select: none;
@@ -195,7 +195,7 @@ img {
     width: auto;
 }
 
-@media all and (max-width: 699px) and (min-width: 200px) {
+@media all and (max-width: 360px) and (min-width: 0px) {
     .pTitle {
 	    font-size: 60px;
         margin-bottom: 5px;
@@ -213,9 +213,65 @@ img {
         line-height:19px;
     }
 
+    .github {
+        right: 75px;
+    }
+
+    .twitter {
+        right: 20px;
+    }
+    
     .logo {
         height: 125px;
-        margin-left: 25px;
+        margin-left: 84px;
+        margin-top: 40px;
+    }
+
+    .logoBox {
+        
+    }
+
+    .sign {
+        height: 200px;
+        width: auto;
+    }
+
+    .signBox {
+        margin-left: -45px;
+        height: 200px;
+    }
+}
+
+
+@media all and (max-width: 599px) and (min-width: 361px) {
+    .pTitle {
+	    font-size: 60px;
+        margin-bottom: 5px;
+        line-height:52px;
+        margin-top:-30px;
+    }
+
+    .p1 {
+        font-size: 35px;
+        line-height:35px;
+    }
+
+    .p2 {
+        font-size: 17px;
+        line-height:19px;
+    }
+
+    .github {
+        right: 75px;
+    }
+
+    .twitter {
+        right: 20px;
+    }
+
+    .logo {
+        height: 150px;
+        margin-left: 5px;
         margin-top: 40px;
     }
 
@@ -231,5 +287,54 @@ img {
     .signBox {
         margin-left: -45px;
         height: 250px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+    .pTitle {
+	    font-size: 80px;
+        margin-bottom: 25px;
+        line-height:52px;
+        margin-top:-15px;
+    }
+
+    .p1 {
+        font-size: 54px;
+        line-height:52px;
+    }
+
+    .p2 {
+        margin-top: -10px;
+        font-size: 25px;
+        line-height:30px;
+    }
+
+    .github {
+        right: 75px;
+    }
+
+    .twitter {
+        right: 20px;
+    }
+
+    .logo {
+        height: 240px;
+        margin-left: 5px;
+        margin-top: 40px;
+    }
+
+    .logoBox {
+        margin-left: 20px;
+    }
+
+    .sign {
+        height: 300px;
+        width: auto;
+        padding-top:30px;
+    }
+
+    .signBox {
+        margin-left: -45px;
+        height: 300px;
     }
 }
