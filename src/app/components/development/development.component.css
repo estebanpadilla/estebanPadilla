@@ -1,0 +1,125 @@
+@import url("styles.css") bgColor2;
+
+h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+    font-family: 'Bangers', cursive;
+    text-align: left;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+    text-align: left;
+}
+
+.p2 {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	margin-top: 20px;
+    text-align: left;
+}
+
+
+.textHorizontalSpace {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.designImage {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.developmentImage {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.testingImage {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+@media all and (max-width: 990px) and (min-width: 401px) {
+    .designImage {
+        width: 400px;
+        height: auto;
+        margin-top: -90px;
+        text-align: center;
+    }
+
+    .developmentImage {
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .testingImage {
+        width: 400px;
+        height: auto;
+        margin-top: -120px;
+        text-align: center;
+    }
+
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+	    text-align: center;
+    }
+}
+
+@media all and (max-width: 499px) and (min-width: 0px) {
+    .designImage {
+        width: 100%;
+        height: auto;
+        margin-top: -90px;
+        text-align: left;
+    }
+    
+    .developmentImage {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .testingImage {
+        width: 100%;
+        height: auto;
+        margin-top: -120px;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    p {
+	    text-align: left;
+    }
+}

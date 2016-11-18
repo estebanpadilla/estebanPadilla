@@ -1,0 +1,36 @@
+<div class="bgColor2">
+  <br>
+  <br>
+  <br>
+  <div class="row textHorizontalSpace">
+    <div class="col-lg-12">
+      <h1>{{ title }}</h1>
+      <p class="p2">{{ description }}</p>
+    </div>
+    <div class="col-md-4 col-lg-4 text-center">
+      <img [src]="designData.image" alt="" class="designImage">
+      <h2 [style.color]="getTitleColor(designData.title)">{{ designData.title }}</h2>
+      <div *ngFor="let description of designData.descriptions">
+        <p>{{ description }}</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4 text-center">
+      <img [src]="developmentData.image" alt="" class="developmentImage">
+      <h2 [style.color]="getTitleColor(developmentData.title)">{{ developmentData.title }}</h2>
+      <div *ngFor="let description of developmentData.descriptions">
+        <p>{{ description }}</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4 text-center">
+      <img [src]="testingData.image" alt="" class="testingImage">
+      <h2 [style.color]="getTitleColor(testingData.title)">{{ testingData.title }}</h2>
+      <div *ngFor="let description of testingData.descriptions">
+        <p>{{ description }}</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>

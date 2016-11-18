@@ -22,6 +22,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SiteDataService } from './services/siteData.service';
 import { DataService } from './services/data.service';
 import { HighlightsComponent } from './components/highlights/highlights.component';
+import { DevelopmentComponent } from './components/development/development.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { HighlightsComponent } from './components/highlights/highlights.componen
     DownloadComponent,
     BelieveComponent,
     ContactComponent,
-    HighlightsComponent
+    HighlightsComponent,
+    DevelopmentComponent
   ],
   imports: [
     BrowserModule,

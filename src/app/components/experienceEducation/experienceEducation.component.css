@@ -1,3 +1,5 @@
+@import url("styles.css") bgColor2;
+
 h1 {
 	color: #2c3a46;
 	font-size: 35px;
@@ -83,10 +85,6 @@ span {
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	margin-top: -10px;
-}
-
-.bgColor {
-	background-color: #ee3344;
 }
 
 .textHorizontalSpace {
