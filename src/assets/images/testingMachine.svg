@@ -27,74 +27,44 @@
 	.st20{font-family:'AeroviasBrasilNF';}
 	.st21{font-size:16;}
 
-	.testWheelsAnimation1 {
-		animation-name:epTestWheelsAnimation1;
+	.testWheelAnimation {
+		animation-name:epTestWheelAnimation;
 		animation-duration: 2s;
 		animation-iteration-count:infinite;  
 		animation-direction:reverse; 
 		animation-timing-function:ease-in;
 	}
 
-	@keyframes epTestWheelsAnimation1 {
+	.testWheel1Position {
+		transform-origin: 94px 369px;
+	}
+	
+	.testWheel2Position {
+		transform-origin: 169px 369px;
+	}
+
+	@keyframes epTestWheelAnimation {
 		
 		0% {
-		  	transform-origin: 94px 369px;
 			transform: rotate(0deg); 
 		}
 		40% {
-		  	transform-origin: 94px 369px;
 			transform: rotate(180deg); 
 		}
 		50% {
-		  	transform-origin: 94px 369px;
 			transform: rotate(180deg); 
 		}
 		55% {
-		  	transform-origin: 94px 369px;
 			transform: rotate(140deg); 
 		}
 		100% {
-		  	transform-origin: 94px 369px;
 			transform: rotate(360deg); 
 		}
 	}
-
-
-	.testWheelsAnimation2 {
-		animation-name:epTestWheelsAnimation2;
-		animation-duration: 2s;
-		animation-iteration-count:infinite;  
-		animation-timing-function:linear;
-	}
-
-	@keyframes epTestWheelsAnimation2 {
-		
-		0% {
-		  	transform-origin: 169px 369px;
-			transform: rotate(0deg); 
-		}
-		45% {
-		  	transform-origin: 169px 369px;
-			transform: rotate(220deg); 
-		}
-		50% {
-		  	transform-origin: 169px 369px;
-			transform: rotate(180deg); 
-		}
-		60% {
-		  	transform-origin: 169px 369px;
-			transform: rotate(180deg); 
-		}
-		100% {
-		  	transform-origin: 169px 369px;
-			transform: rotate(360deg); 
-		}
-	}
-
 
 	.testLightsAnimation1 {
 		animation-name:epTestLightsAnimation1;
-		animation-duration: 2s;
+		animation-duration: 1s;
 		animation-iteration-count:infinite; 
 		animation-direction: alternate-reverse; 
 		animation-timing-function:ease-in;
@@ -118,10 +88,10 @@
 		  	fill: white;
   		}
 	}
-
+	
 	.testLightsAnimation2 {
 		animation-name:epTestLightsAnimation2;
-		animation-duration: 2s;
+		animation-duration: 1.5s;
 		animation-iteration-count:infinite; 
 		animation-direction: alternate-reverse; 
 		animation-timing-function:ease-in;
@@ -215,7 +185,7 @@
 <rect x="59" y="220" class="st0" width="28" height="10"/>
 <line class="st11" x1="104.3" y1="393.9" x2="158" y2="393.9"/>
 <rect x="89" y="220" class="st10" width="9" height="10"/>
-<g class="testWheelsAnimation1">
+<g class="testWheelAnimation testWheel1Position">
 	<circle class="st10" cx="94" cy="369" r="30"/>
 	<circle class="st3" cx="94" cy="369" r="10"/>
 	<path class="st0" d="M96.5,351.7V344h-5v7.7c0.8-0.1,1.7-0.2,2.5-0.2S95.7,351.6,96.5,351.7z"/>
@@ -225,7 +195,7 @@
 <circle class="st6" cx="71.5" cy="406.5" r="7.5"/>
 <path class="st6" d="M141.5,409h-20v-10c0-2.8,2.2-5,5-5h10c2.8,0,5,2.2,5,5V409z"/>
 <circle class="st6" cx="113" cy="402" r="5"/>
-<g class="testWheelsAnimation2">
+<g class="testWheelAnimation testWheel2Position">
 	<circle class="st10" cx="169" cy="369" r="30"/>
 	<circle class="st3" cx="169" cy="369" r="10"/>
 	<path class="st0" d="M166.5,351.7V344h5v7.7c-0.8-0.1-1.7-0.2-2.5-0.2S167.3,351.6,166.5,351.7z"/>

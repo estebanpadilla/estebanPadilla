@@ -24,65 +24,70 @@
 	.st17{font-family:'AeroviasBrasilNF';}
 	.st18{font-size:16;}
 
-
-	.desWheelsAnimation1 {
-		animation-name:epDesWheelsAnimation1;
+	.desWheelAnimation {
+		animation-name:epDesWheelAnimation;
 		animation-duration: 4s;
 		animation-iteration-count:infinite; 
 		animation-direction:reverse;
 		animation-timing-function:linear;
 	}
 
-	@keyframes epDesWheelsAnimation1 {
+	.desWheel1Position {
+		transform-origin: 115.8px 307px;
+	}
+
+
+	.desWheel2Position {
+		transform-origin: 115.8px 369px;
+	}
+
+	@keyframes epDesWheelAnimation {
 		0% {
-		  	transform-origin: 115.8px 307px;
 			transform: rotate(0deg); 
 		}
 		40% {
-		  	transform-origin: 115.8px 307px;
 			transform: rotate(180deg); 
 		}
 		50% {
-		  	transform-origin: 115.8px 307px;
 			transform: rotate(180deg); 
 		}
 		55% {
-		  	transform-origin: 115.8px 307px;
 			transform: rotate(140deg); 
 		}
 		100% {
-		  	transform-origin: 115.8px 307px;
 			transform: rotate(360deg); 
 		}
-	}
-			
-	.desWheelsAnimation2 {
-		animation-name:epDesWheelsAnimation2;
-		animation-duration: 4s;
-		animation-iteration-count:infinite;  
-		animation-timing-function:ease-in;
 	}
 
-	@keyframes epDesWheelsAnimation2 {
+	.desMeterAnimation {
+		animation-name:epDesMeterAnimation;
+		animation-iteration-count:infinite; 
+		animation-timing-function:linear;
+		animation-direction:alternate-reverse;
+	}
+
+	.desMeter1Position {
+		animation-duration: 1s;
+		transform-origin: 175.8px 370.3px;
+	}
+
+	.desMeter2Position {
+		animation-duration: 0.75s;
+		transform-origin: 239.8px 370.3px;
+	}
+
+	@keyframes epDesMeterAnimation {
 		0% {
-		  	transform-origin: 115.8px 369px;
 			transform: rotate(0deg); 
 		}
-		45% {
-		  	transform-origin: 115.8px 369px;
-			transform: rotate(220deg); 
-		}
-		50% {
-		  	transform-origin: 115.8px 369px;
-			transform: rotate(180deg); 
+		40% {
+			transform: rotate(30deg);
 		}
 		60% {
-		  	transform-origin: 115.8px 369px;
-			transform: rotate(180deg); 
+			transform: rotate(0deg);
 		}
 		100% {
-		  	transform-origin: 115.8px 369px;
-			transform: rotate(360deg); 
+			transform: rotate(70deg); 
 		}
 	}
 
@@ -100,14 +105,14 @@
 <rect x="16.4" y="397.1" class="st1" width="5" height="2"/>
 <rect x="16.4" y="401.6" class="st1" width="5" height="2"/>
 <path class="st7" d="M33.7,400.1c0,0,2.6,20.1,15.7,20.2c13.3,0,17.6-15.4,23.6-53"/>
-<g class="desWheelsAnimation1">
+<g class="desWheelAnimation desWheel1Position">
 	<circle class="st4" cx="115.8" cy="307" r="25"/>
 	<circle class="st8" cx="115.8" cy="307" r="8.3"/>
 	<path class="st8" d="M117.9,292.6v-6.4h-4.2v6.4c0.7-0.1,1.4-0.2,2.1-0.2S117.2,292.5,117.9,292.6z"/>
 	<path class="st8" d="M96.7,315.6l2.1,3.6l5.6-3.2c-0.9-1.1-1.6-2.3-2.1-3.6L96.7,315.6z"/>
 	<path class="st8" d="M127.3,316l5.6,3.2l2.1-3.6l-5.5-3.2C128.8,313.7,128.1,314.9,127.3,316z"/>
 </g>
-<g class="desWheelsAnimation2">
+<g class="desWheelAnimation desWheel2Position">
 	<circle class="st4" cx="115.8" cy="369" r="25"/>
 	<circle class="st8" cx="115.8" cy="369" r="8.3"/>
 	<path class="st8" d="M117.9,354.6v-6.4h-4.2v6.4c0.7-0.1,1.4-0.2,2.1-0.2S117.2,354.5,117.9,354.6z"/>
@@ -128,9 +133,11 @@
 	C195.8,365.9,191.7,370,186.7,370z"/>
 <path class="st9" d="M175.8,355c-7.8,0-14.8,3.6-19.4,9.2c1.3,3.4,4.6,5.8,8.5,5.8h21.8c3.8,0,7.1-2.4,8.5-5.8
 	C190.6,358.6,183.6,355,175.8,355z"/>
-<circle class="st8" cx="175.8" cy="370.3" r="2.5"/>
-<rect x="174.9" y="360.8" class="st8" width="2" height="9"/>
-<polygon class="st8" points="172.9,360.8 175.9,357.8 178.9,360.8 "/>
+<g class="desMeterAnimation desMeter1Position">
+	<circle class="st8" cx="175.8" cy="370.3" r="2.5"/>
+	<rect x="174.9" y="360.8" class="st8" width="2" height="9"/>
+	<polygon class="st8" points="172.9,360.8 175.9,357.8 178.9,360.8 	"/>
+</g>
 <polygon class="st3" points="205.8,390 202.8,387 202.8,343 205.8,340 "/>
 <polygon class="st6" points="202.8,343 148.8,343 145.8,340 205.8,340 "/>
 <polygon class="st10" points="148.8,387 145.8,390 145.8,340 148.8,343 "/>
@@ -141,9 +148,6 @@
 	C259.8,365.9,255.7,370,250.7,370z"/>
 <path class="st9" d="M239.8,355c-7.8,0-14.8,3.6-19.4,9.2c1.3,3.4,4.6,5.8,8.5,5.8h21.8c3.8,0,7.1-2.4,8.5-5.8
 	C254.6,358.6,247.6,355,239.8,355z"/>
-<circle class="st8" cx="239.8" cy="370.3" r="2.5"/>
-<rect x="238.9" y="360.8" class="st8" width="2" height="9"/>
-<polygon class="st8" points="236.9,360.8 239.9,357.8 242.9,360.8 "/>
 <polygon class="st3" points="269.8,390 266.8,387 266.8,343 269.8,340 "/>
 <polygon class="st6" points="266.8,343 212.8,343 209.8,340 269.8,340 "/>
 <polygon class="st10" points="212.8,387 209.8,390 209.8,340 212.8,343 "/>
@@ -166,6 +170,11 @@
 <path class="st7" d="M224.8,303.5c0,0-1.6,15.9,13,17"/>
 <path class="st14" d="M237.8,303.5c0,0,0.7,12.3-13.1,17.1"/>
 <path class="st15" d="M250.8,303.5c0,0-7.2,9.3,0,17.1"/>
+<g class="desMeterAnimation desMeter2Position">
+	<circle class="st8" cx="239.8" cy="370.3" r="2.5"/>
+	<rect x="238.9" y="360.8" class="st8" width="2" height="9"/>
+	<polygon class="st8" points="236.9,360.8 239.9,357.8 242.9,360.8 	"/>
+</g>
 <g>
 	<path class="st4" d="M75.9,250.1c-0.7,0-1.3,0.4-1.5-0.6c-0.1-0.7,0.1-1.4,0.2-2c1.4-0.4,2.7-1.2,3.6-2.4c0.6-0.8,1.4-2.7,0.1-3.3
 		c-0.9-0.4-2.2,0-2.8,0.6c-1.3,1.2-2.1,2.9-2.5,4.5l-0.5,0.1c-0.5,0-0.1,0.7,0.2,0.7h0.1c-0.2,1.2-0.3,3,1.1,3.5
@@ -203,7 +212,7 @@
 	<path class="st1" d="M159.6,329.3c0-2.4,3.7-2.5,3.7,0C163.4,331.8,159.6,331.8,159.6,329.3z M160.8,329.3c0,1.1,1.4,1.4,1.5,0.2
 		C162.4,328.2,160.8,327.9,160.8,329.3z"/>
 	<path class="st1" d="M164,327.5h2.7v0.8h-1.6v0.6h1.4v0.7h-1.4v1.5H164V327.5z"/>
-	<path class="st1" d="M167.3,327.5h2.7v0.8h-1.6v0.6h1.4v0.7h-1.4v1.5h-1.1V327.5z"/>
+	<path class="st1" d="M167.3,327.5h2.7v0.8h-1.6v0.6h1.4v0.7h-1.4v1.5h-1.1L167.3,327.5L167.3,327.5z"/>
 </g>
 <g>
 	<path class="st1" d="M161.1,293c0-2.4,3.7-2.5,3.7,0C164.8,295.4,161.1,295.4,161.1,293z M162.2,293c0,1.1,1.4,1.4,1.5,0.2
@@ -214,13 +223,13 @@
 <polygon class="st10" points="74.8,399 134.8,399 132.8,397 76.8,397 "/>
 <polygon class="st3" points="74.8,399 76.8,397 76.8,279 74.8,277 "/>
 <polygon class="st3" points="76.8,279 132.8,279 134.8,277 74.8,277 "/>
-<path class="st16" d="M255.4,133.3c5.9,5.9,5.9,33.6,0,39.5c-5.9,5.9-49.3,5.9-55.2,0c-5.9-5.9-5.9-33.6,0-39.5
+<path class="st16" d="M255.4,133.3c5.9,5.9,5.9,33.6,0,39.5c-5.9,5.9-49.3,5.9-55.2,0s-5.9-33.6,0-39.5
 	C206.1,127.4,249.6,127.4,255.4,133.3z"/>
-<path class="st1" d="M253.7,134.5c5.5,5.5,5.5,31.5,0,37c-5.5,5.5-46.3,5.5-51.8,0c-5.5-5.5-5.5-31.5,0-37
-	C207.5,129,248.2,129,253.7,134.5z"/>
+<path class="st1" d="M253.7,134.5c5.5,5.5,5.5,31.5,0,37c-5.5,5.5-46.3,5.5-51.8,0s-5.5-31.5,0-37C207.5,129,248.2,129,253.7,134.5z
+	"/>
 <rect x="231.3" y="184" class="st3" width="9" height="9"/>
 <rect x="225.8" y="193" class="st0" width="20" height="5"/>
-<text transform="matrix(0.9888 0 0 1 210.2005 156.8336)"><tspan x="0" y="0" class="st12 st17 st18">0101</tspan></text>
+<text transform="matrix(0.9888 0 0 1 210.2012 156.834)" class="st12 st17 st18">0101</text>
 <circle class="st1" cx="269" cy="145" r="7"/>
 <circle class="st16" cx="269" cy="145" r="4.5"/>
 <circle class="st1" cx="269" cy="162" r="7"/>
