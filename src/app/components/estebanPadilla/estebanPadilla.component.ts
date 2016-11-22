@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { User } from '../../models/user';
 import { SiteDataService } from '../../services/siteData.service';
 import { DataService } from '../../services/data.service';
@@ -15,6 +15,13 @@ export class EstebanPadillaComponent {
 	updateTitle:string;
 	lastUpdate:string;
 	sign:string = '../assets/images/sign.svg';
+
+	//Track scroll proccess
+    // @HostListener('window:scroll', ['$event']) 
+    // doSomething(event) {
+    //   console.debug("Scroll Event", document.body.scrollTop);
+    // }
+
 
 	constructor(private dataService:DataService ) { }
 
