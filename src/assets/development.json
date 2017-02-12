@@ -1,30 +1,36 @@
 [
     {
-        "title":"Design", 
-        "descriptions":["As designer, I have a clear idea of how I want my product to work and how I would want my audience to interact with my product but usually is not that easy, sometimes I forget to put myself as a user, that's why after going thru the whole schetching procedure a quick prototype is the right way to validate the design.",
-                        "I found out that getting real feed back from the users is kinda of a challenge and usually they do not share their honest point of view with the design team or the developing team, on this case, myself,  many time because they rather to hurt the feelings of thoose working on the project.",
-                        "When running a test like this it's better to be part of the users taking the test and put atention to the comments they provide and over all and the most important is to put yourself in the user perspective."],
-        "image":"./assets/images/designMachine.svg",
-        "listTitle":"",
-        "list":[]
+        "title": "Design",
+        "descriptions": [
+            "As designer, I have a clear idea of how I want my product to work and how I would want my audience to interact with my product but usually is not that easy, sometimes I forget to put myself as a user, that's why after going thru the whole schetching procedure a quick prototype is the right way to validate the design.",
+            "I found out that getting real feed back from the users is kinda of a challenge and usually they do not share their honest point of view with the design team or the developing team, on this case, myself,  many time because they rather to hurt the feelings of thoose working on the project.",
+            "When running a test like this it's better to be part of the users taking the test and put atention to the comments they provide and over all and the most important is to put yourself in the user perspective."
+        ],
+        "image": "./assets/images/designMachine.svg",
+        "listTitle": "",
+        "list": []
     },
     {
-        "title":"Development", 
-        "descriptions":["The development stage is where I take all the information and feedback gathered from prototyping and users and I begin to build the product with design according to my already established coding standards.",
-                        "Thus, resulting in your final iteration I put the asterisk solely because there are times I re-visit a final product and iterate upon it, all depending again on more feedback from people that have a real criteria to provide usefull information.",
-                        "I believe once I have a completed and validated design the development stage should be the shortest phase on the product line."],
-        "image":"./assets/images/developmentMachine.svg",
-        "listTitle":"",
-        "list":[]
+        "title": "Development",
+        "descriptions": [
+            "The development stage is where I take all the information and feedback gathered from prototyping and users and I begin to build the product with design according to my already established coding standards.",
+            "Thus, resulting in your final iteration I put the asterisk solely because there are times I re-visit a final product and iterate upon it, all depending again on more feedback from people that have a real criteria to provide usefull information.",
+            "I believe once I have a completed and validated design the development stage should be the shortest phase on the product line."
+        ],
+        "image": "./assets/images/developmentMachine.svg",
+        "listTitle": "",
+        "list": []
     },
     {
-        "title":"Testing", 
-        "descriptions":["Once the product has been made available for the world audience, I  should dive right into the analyze phase of the design process.",
-                        "In this phase I will gain insight on my newly published product. I attain these insights through product research and user feedback. The analyze phase is quite a pivotal point in the design process.",
-                        "I’ve mentioned that it’s important to receive more user feedback and product research to see if my product is truly ready to meld with the end-users. More testing is definitely necessary, it’s all about testing, testing, testing.",
-                        "The more feedback I can garner with my end-user audience, the more solid my designs will be for that audience. The more my audience praises my product, the better my product will fare in the market and against my competition."],
-        "image":"./assets/images/testingMachine.svg",
-        "listTitle":"",
-        "list":[]
+        "title": "Testing",
+        "descriptions": [
+            "Once the product has been made available for the world audience, I  should dive right into the analyze phase of the design process.",
+            "In this phase I will gain insight on my newly published product. I attain these insights through product research and user feedback. The analyze phase is quite a pivotal point in the design process.",
+            "I’ve mentioned that it’s important to receive more user feedback and product research to see if my product is truly ready to meld with the end-users. More testing is definitely necessary, it’s all about testing, testing, testing.",
+            "The more feedback I can garner with my end-user audience, the more solid my designs will be for that audience. The more my audience praises my product, the better my product will fare in the market and against my competition."
+        ],
+        "image": "./assets/images/testingMachine.svg",
+        "listTitle": "",
+        "list": []
     }
 ]

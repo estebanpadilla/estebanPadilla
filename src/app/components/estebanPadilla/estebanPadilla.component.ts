@@ -6,28 +6,28 @@ import { DataService } from '../../services/data.service';
 @Component({
 	selector: 'estebanpadilla',
 	templateUrl: './estebanPadilla.component.html',
-	styleUrls:[ './estebanPadilla.component.css']
+	styleUrls: ['./estebanPadilla.component.css']
 })
 
 export class EstebanPadillaComponent {
 
-	user:User = new User();
-	updateTitle:string;
-	lastUpdate:string;
-	sign:string = '../assets/images/sign.svg';
+	user: User = new User();
+	updateTitle: string;
+	lastUpdate: string;
+	sign: string = '../assets/images/sign.svg';
 
 	//Track scroll proccess
-    // @HostListener('window:scroll', ['$event']) 
-    // doSomething(event) {
-    //   console.debug("Scroll Event", document.body.scrollTop);
-    // }
+	// @HostListener('window:scroll', ['$event']) 
+	// doSomething(event) {
+	//   console.debug("Scroll Event", document.body.scrollTop);
+	// }
 
 
-	constructor(private dataService:DataService ) { }
+	constructor(private dataService: DataService) { }
 
 	ngOnInit() {
 		this.dataService.fetchUser().subscribe(((data) => this.user = data));
 		this.updateTitle = 'Updated';
-		this.lastUpdate = 'Nov 2016';
+		this.lastUpdate = 'Feb 2017';
 	}
 }
