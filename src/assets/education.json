@@ -1,18 +1,22 @@
 [
-    { 	
-        "institution":"CTPI José Figueres Ferrer", 
-        "achievement":"Bachiller y Técnico medio en Electrotecnia."
+    {
+        "institution": "CTPI José Figueres Ferrer",
+        "achievement": "Bachiller y Técnico medio en Electrotecnia."
     },
-    { 	
-        "institution":"Universidad Veritas", 
-        "achievement":"Animación Digital (Not completed)"
+    {
+        "institution": "Universidad Veritas",
+        "achievement": "Animación Digital (Not completed)"
     },
-    { 	
-        "institution":"Univerdiad Cenfotec", 
-        "achievement":"Diplomado en Desarrollo de Software"
+    {
+        "institution": "Univerdiad Cenfotec",
+        "achievement": "Diplomado en Desarrollo de Software"
     },
-    { 	
-        "institution":"Big Nerd Ranch", 
-        "achievement":"iOS with Swift for the Enterprise (Corporate)"
+    {
+        "institution": "Big Nerd Ranch",
+        "achievement": "iOS with Swift for the Enterprise (Corporate)"
+    },
+    {
+        "institution": "Michigan State University",
+        "achievement": "Introduction to Game Development by Michigan State University on Coursera"
     }
 ]
