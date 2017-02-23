@@ -1,4 +1,3 @@
-
 <div class="bgColor4">
 	<div class="hireBox">
 		<p class="hireBoxTitle">{{ iosdeveloper.hireBoxTitle }}</p>
@@ -18,13 +17,13 @@
 		<div class="col-sm-12">
 			<div class="text-center">
 				<svg class="iosdevelopment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" enable-background="new 0 0 256 256">
-					<path [attr.d]="iosdeveloper.image"/>
+					<path [attr.d]="iosdeveloper.image" />
 				</svg>
 				<!--<img [src]="iosdeveloper.image">-->
 			</div>
 			<br>
 			<div>
-				<h2 class="text-left"><span>Need an </span><span class="h2_light">iOS </span><span>Developer?</span></h2>
+				<h2 class="text-left"><span>Do you need a hand with your project?</span></h2>
 				<div *ngFor="let description of iosdeveloper.descriptions">
 					<p class="text-left">{{ description }}</p>
 				</div>

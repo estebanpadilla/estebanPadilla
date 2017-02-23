@@ -1,34 +1,32 @@
 {
-    "title":"Need and iOS Developer?",
-	"descriptions":
-	[
-		"I am passionate iOS Developer with years of experience building apps and games for iPhone and iPad. I'm always looking for interesting and challenging projects, so if you need someone to help you develop the app or games of your dreams do not hesitate to contact me, I would love to work with you.",
+	"title": "Need and iOS Developer?",
+	"descriptions": [
+		"I am passionate developer with years of experience building apps and games. I'm always looking for interesting and challenging projects, so if you need someone to help you develop the app or games of your dreams do not hesitate to contact me, I would love to work with you.",
 		"I can also be very helpfull on started projects where things did not go as planned I can assist to pick up the overflow and deliver your project on time.",
 		"I pride myself in communication and initiative to ensure my involvement is always seamless, flexible, cost-effective, and the highest of quality."
 	],
-	"image":"M168.6 65.8c-16.7.3-32.2 11.2-40.8 11.2-9.3 0-23.7-10.7-38.9-10.4-20 .3-38.5 11.8-48.8 30.1-20.8 36.7-5.3 91.2 14.9 121 9.9 14.6 21.7 31 37.2 30.4 15-.6 20.6-9.8 38.7-9.8s23.1 9.8 38.9 9.5c16.1-.3 26.3-14.9 36.1-29.5 11.4-16.9 16.1-33.3 16.3-34.2-.4-.2-31.3-12.2-31.7-48.6-.3-30.4 24.4-45 25.5-45.7-13.9-20.7-35.5-23.5-43.2-23.8-1.3-.1-2.7-.2-4.2-.2zm4.6-57.8c-11.9.5-26.2 8-34.7 18.2-7.6 9-14.3 23.4-12.5 37.1 13.2 1 26.7-6.9 35-17 8.1-10.1 13.7-24.3 12.2-38.3z",
-	"titleIOS":"App Development",
-	"descriptionIOS":"You have an amazing app idea and you are ready to make come true. One important question that always comes up is what is the right technology to choose? The answer is very simple, if the user experience on your app is very important you should develop your app with native technolgies because you want your app to have all the chances to excel. I have many years of experience in application development for various platforms. Currently I’m specialized in native iOS development.",
-	"imageIOS":"./assets/images/appDevelopmentIcon.svg",
-	"iosText1":"You have an amazing app idea and you are ready to make come true, but you are wondering.",
-	"iosText2":"What is the best technology to choose?",
-	"iosText3":"That is a very important question that always comes up and the answer depends on the user experience that you would like your app to have. Obviously the goal is to make a great app and only natives technolgies would give you all the resources to achieve that and enabling it to have all the chances to excel. I have many years of experience in application development and I have seen software trends to come and go but nothing has come out that would replace native development.",
-	"titleGame":"Game Development",
-	"descriptionGame":"I also have a lot of experience in creating games and I can help you by giving your game idea a proper boost to completion and not only that, I can also help you with recomendation and advice on the all stages to make your game a great sucess.",
-	"imageGame":"./assets/images/gameDevelopmentIcon.svg",
-	"hireBoxTitle":"I am available",
-    "hireBoxSubTitle":"Right Now!",
-	"contactBoxTitle":"ep@estebanpadilla.com",
-    "contactBoxSubTitle":"(506) 8706-6660",
-	"listTitle":"Here’s how I can help you:",
-    "list":
-    [
-        "I can help you on all the development stages of your iOS project.",
+	"image": "M168.6 65.8c-16.7.3-32.2 11.2-40.8 11.2-9.3 0-23.7-10.7-38.9-10.4-20 .3-38.5 11.8-48.8 30.1-20.8 36.7-5.3 91.2 14.9 121 9.9 14.6 21.7 31 37.2 30.4 15-.6 20.6-9.8 38.7-9.8s23.1 9.8 38.9 9.5c16.1-.3 26.3-14.9 36.1-29.5 11.4-16.9 16.1-33.3 16.3-34.2-.4-.2-31.3-12.2-31.7-48.6-.3-30.4 24.4-45 25.5-45.7-13.9-20.7-35.5-23.5-43.2-23.8-1.3-.1-2.7-.2-4.2-.2zm4.6-57.8c-11.9.5-26.2 8-34.7 18.2-7.6 9-14.3 23.4-12.5 37.1 13.2 1 26.7-6.9 35-17 8.1-10.1 13.7-24.3 12.2-38.3z",
+	"titleIOS": "App Development",
+	"descriptionIOS": "You have an amazing game idea and you are ready to make come true. One important question that always comes up is what is the right technology to choose? The answer is very simple, if the user experience on your app is very important you should develop your app with native technolgies because you want your app to have all the chances to excel. I have many years of experience in application development for various platforms. Currently I’m specialized in native iOS development.",
+	"imageIOS": "./assets/images/appDevelopmentIcon.svg",
+	"iosText1": "You have an amazing app idea and you are ready to make come true, but you are wondering.",
+	"iosText2": "What is the best technology to choose?",
+	"iosText3": "That is a very important question that always comes up and the answer depends on the user experience that you would like your app to have. Obviously the goal is to make a great app and only natives technolgies would give you all the resources to achieve that and enabling it to have all the chances to excel. I have many years of experience in application development and I have seen software trends to come and go but nothing has come out that would replace native development.",
+	"titleGame": "Game Development",
+	"descriptionGame": "I also have a lot of experience in creating games and I can help you by giving your game idea a proper boost to completion and not only that, I can also help you with recomendation and advice on the all stages to make your game a great sucess.",
+	"imageGame": "./assets/images/gameDevelopmentIcon.svg",
+	"hireBoxTitle": "I am available",
+	"hireBoxSubTitle": "Right Now!",
+	"contactBoxTitle": "ep@estebanpadilla.com",
+	"contactBoxSubTitle": "(506) 8706-6660",
+	"listTitle": "Here’s how I can help you:",
+	"list": [
+		"I can help you on all the development stages of your project.",
 		"I’m comfortable working both behind the scenes and in client-facing roles.",
 		"I can adapt to your workflow and tools (or even introduce something new).",
 		"I always have in mind the UI/UX best practices",
 		"I'm constantly keep updating on new design patterns and trends.",
 		"I've been working on swift right from the same day it came out on 2014.",
 		"I'm familiar with the Human Interface Guidelines and what makes a good UI."
-    ]
+	]
 }
